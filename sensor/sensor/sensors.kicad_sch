@@ -658,7 +658,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_Expansion:PCA9536D"
+		(symbol "Interface_Expansion:PCA9536DP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -670,7 +670,7 @@
 					)
 				)
 			)
-			(property "Value" "PCA9536D"
+			(property "Value" "PCA9536DP"
 				(at 6.35 6.35 0)
 				(effects
 					(font
@@ -678,7 +678,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
 				(at 25.4 -8.89 0)
 				(effects
 					(font
@@ -696,7 +696,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "4-bit I2C-bus and SMBus IO port, SOIC-8"
+			(property "Description" "4-bit I2C-bus and SMBus IO port, TSSOP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -714,7 +714,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_fp_filters" "TSSOP*3x3mm*P0.65mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -723,7 +723,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PCA9536D_0_1"
+			(symbol "PCA9536DP_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -7.62)
@@ -736,7 +736,7 @@
 					)
 				)
 			)
-			(symbol "PCA9536D_1_1"
+			(symbol "PCA9536DP_1_1"
 				(pin bidirectional line
 					(at -12.7 -2.54 0)
 					(length 2.54)
@@ -3914,94 +3914,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_Expansion:PCA9536D")
-		(at 203.2 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16b21339-7a45-4b0a-ac6e-90f0010ba2c1")
-		(property "Reference" "U8"
-			(at 205.3433 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PCA9536D"
-			(at 205.3433 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCA9536.pdf"
-			(at 198.12 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4-bit I2C-bus and SMBus IO port, SOIC-8"
-			(at 203.2 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fb988383-61cf-4de4-a973-b65f21a0bd6e")
-		)
-		(pin "6"
-			(uuid "be2a4b7c-9207-4633-aa08-68c9a74c2e9a")
-		)
-		(pin "7"
-			(uuid "de05a5e9-ec03-4f50-b9f4-254060132102")
-		)
-		(pin "8"
-			(uuid "c3604ff3-4342-4e6f-b297-afcfc0704389")
-		)
-		(pin "1"
-			(uuid "9108bdb6-f3b8-47f4-8ef4-037480198ddc")
-		)
-		(pin "5"
-			(uuid "c1b59dcf-3e79-4f56-a0fe-2e4d33cb5a31")
-		)
-		(pin "4"
-			(uuid "545954d6-0132-4465-a43d-f5b765a1f471")
-		)
-		(pin "3"
-			(uuid "3e5ba57d-b369-460f-a2ed-87c6fde848bf")
-		)
-		(instances
-			(project "sensor"
-				(path "/46f6a130-b02e-4523-867c-7812ad0e1543/5749ed06-df97-48a5-a63f-8384a2d309d9"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 157.48 177.8 270)
 		(unit 1)
@@ -4266,6 +4178,94 @@
 			(project "sensor"
 				(path "/46f6a130-b02e-4523-867c-7812ad0e1543/5749ed06-df97-48a5-a63f-8384a2d309d9"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Expansion:PCA9536DP")
+		(at 203.2 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26ac2894-c6ff-4af4-9839-a16949d2baee")
+		(property "Reference" "U4"
+			(at 205.3433 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PCA9536DP"
+			(at 205.3433 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+			(at 228.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCA9536.pdf"
+			(at 198.12 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-bit I2C-bus and SMBus IO port, TSSOP-8"
+			(at 203.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ff65bc37-c7d4-4450-84ae-c2c72c65c6fb")
+		)
+		(pin "6"
+			(uuid "a225309e-0e98-400f-a87b-741dfaca4652")
+		)
+		(pin "2"
+			(uuid "b6011c20-aed0-430c-b6ba-c85d9e48b72b")
+		)
+		(pin "3"
+			(uuid "88aa9bd7-1123-491a-9334-c254b8a2438b")
+		)
+		(pin "1"
+			(uuid "e43e9206-d1b8-4435-a9b7-4d90fa3a67d3")
+		)
+		(pin "5"
+			(uuid "651f670f-0f5c-4618-b426-96ada752e1d7")
+		)
+		(pin "7"
+			(uuid "44b11d39-2926-4337-9410-931336a906b3")
+		)
+		(pin "8"
+			(uuid "ce8b51f9-6ce4-4348-b7e5-56faadb64f50")
+		)
+		(instances
+			(project ""
+				(path "/46f6a130-b02e-4523-867c-7812ad0e1543/5749ed06-df97-48a5-a63f-8384a2d309d9"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6059,7 +6059,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac7022c8-411f-40c5-a461-a0168c1a93af")
 		(property "Reference" "R17"
 			(at 63.5 54.61 90)
