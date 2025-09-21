@@ -3487,16 +3487,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 113.03) (xy 105.41 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f971ab57-23da-488a-9117-1727cb2235e0")
-	)
-	(wire
-		(pts
 			(xy 173.99 83.82) (xy 186.69 83.82)
 		)
 		(stroke
@@ -3883,7 +3873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RJ12_Pin_Connector:Slide_SPDT_AS12AH"
 			(at 92.71 138.43 0)
 			(effects
 				(font
@@ -3953,7 +3943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 83.82 122.428 90)
 			(effects
 				(font
@@ -4371,7 +4361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 83.82 140.208 90)
 			(effects
 				(font
@@ -4578,7 +4568,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 92.71 120.65 0)
 			(effects
 				(font
@@ -5812,7 +5802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 83.82 131.318 90)
 			(effects
 				(font
@@ -6023,7 +6013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 83.82 149.098 90)
 			(effects
 				(font
@@ -6296,7 +6286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RJ12_Pin_Connector:Slide_SPDT_AS12AH"
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -6473,72 +6463,6 @@
 			(project "sensor"
 				(path "/46f6a130-b02e-4523-867c-7812ad0e1543"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 105.41 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de7db18a-77e4-447b-b847-e24a764ada94")
-		(property "Reference" "#PWR042"
-			(at 105.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "145c7f57-d303-41c8-8bc3-594353e24f8b")
-		)
-		(instances
-			(project ""
-				(path "/46f6a130-b02e-4523-867c-7812ad0e1543"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6730,7 +6654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RJ12_Pin_Connector:Slide_SPDT_AS12AH"
 			(at 92.71 129.54 0)
 			(effects
 				(font
