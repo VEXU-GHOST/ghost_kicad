@@ -2535,6 +2535,14 @@
 		(color 0 0 0 0)
 		(uuid "fb21ac4c-bb10-4779-888a-46c26c50a98e")
 	)
+	(no_connect
+		(at 52.07 97.79)
+		(uuid "b6365712-6ed6-40bf-8dad-734aaeea36b7")
+	)
+	(no_connect
+		(at 223.52 97.79)
+		(uuid "f2560ba6-0506-4ed8-ad5a-e6b995c6438d")
+	)
 	(wire
 		(pts
 			(xy 186.69 125.73) (xy 186.69 133.35)
@@ -3515,28 +3523,6 @@
 		)
 		(uuid "fa7a9fe8-d394-4299-8d4c-b799ba66150f")
 	)
-	(hierarchical_label "sda"
-		(shape input)
-		(at 44.45 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b401eb8f-652c-4357-ba37-245ebd5f881c")
-	)
-	(hierarchical_label "scl"
-		(shape input)
-		(at 44.45 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d915eac5-7541-4d05-82d8-442983b355ac")
-	)
 	(symbol
 		(lib_id "Interface_Expansion:LTC4316xDD")
 		(at 64.77 110.49 0)
@@ -3873,7 +3859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RJ12_Pin_Connector:Slide_SPDT_AS12AH"
+		(property "Footprint" ""
 			(at 92.71 138.43 0)
 			(effects
 				(font
@@ -4083,7 +4069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
 			(at 254 107.95 0)
 			(effects
 				(font
@@ -4568,7 +4554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
+		(property "Footprint" ""
 			(at 92.71 120.65 0)
 			(effects
 				(font
@@ -5940,7 +5926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 118.11 127 0)
 			(effects
 				(font
@@ -6286,7 +6272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RJ12_Pin_Connector:Slide_SPDT_AS12AH"
+		(property "Footprint" ""
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -6654,7 +6640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RJ12_Pin_Connector:Slide_SPDT_AS12AH"
+		(property "Footprint" ""
 			(at 92.71 129.54 0)
 			(effects
 				(font
@@ -6865,6 +6851,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "scl" input
+			(at 44.45 105.41 0)
+			(uuid "aaf683c6-a3e8-4205-bc46-3cab48e19f49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sda" input
+			(at 44.45 107.95 0)
+			(uuid "075bdf3c-8857-4bfa-a9bc-27c952269fe6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
