@@ -2535,6 +2535,14 @@
 		(color 0 0 0 0)
 		(uuid "fb21ac4c-bb10-4779-888a-46c26c50a98e")
 	)
+	(no_connect
+		(at 52.07 97.79)
+		(uuid "b6365712-6ed6-40bf-8dad-734aaeea36b7")
+	)
+	(no_connect
+		(at 223.52 97.79)
+		(uuid "f2560ba6-0506-4ed8-ad5a-e6b995c6438d")
+	)
 	(wire
 		(pts
 			(xy 186.69 125.73) (xy 186.69 133.35)
@@ -3487,16 +3495,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 113.03) (xy 105.41 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f971ab57-23da-488a-9117-1727cb2235e0")
-	)
-	(wire
-		(pts
 			(xy 173.99 83.82) (xy 186.69 83.82)
 		)
 		(stroke
@@ -3524,28 +3522,6 @@
 			(type default)
 		)
 		(uuid "fa7a9fe8-d394-4299-8d4c-b799ba66150f")
-	)
-	(hierarchical_label "sda"
-		(shape input)
-		(at 44.45 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b401eb8f-652c-4357-ba37-245ebd5f881c")
-	)
-	(hierarchical_label "scl"
-		(shape input)
-		(at 44.45 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d915eac5-7541-4d05-82d8-442983b355ac")
 	)
 	(symbol
 		(lib_id "Interface_Expansion:LTC4316xDD")
@@ -3953,7 +3929,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 83.82 122.428 90)
 			(effects
 				(font
@@ -4093,7 +4069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
 			(at 254 107.95 0)
 			(effects
 				(font
@@ -4371,7 +4347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 83.82 140.208 90)
 			(effects
 				(font
@@ -5812,7 +5788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 83.82 131.318 90)
 			(effects
 				(font
@@ -5950,7 +5926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 118.11 127 0)
 			(effects
 				(font
@@ -6023,7 +5999,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 83.82 149.098 90)
 			(effects
 				(font
@@ -6479,72 +6455,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 105.41 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de7db18a-77e4-447b-b847-e24a764ada94")
-		(property "Reference" "#PWR042"
-			(at 105.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "145c7f57-d303-41c8-8bc3-594353e24f8b")
-		)
-		(instances
-			(project ""
-				(path "/46f6a130-b02e-4523-867c-7812ad0e1543"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 25.4 170.18 90)
 		(unit 1)
@@ -6941,6 +6851,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "scl" input
+			(at 44.45 105.41 0)
+			(uuid "aaf683c6-a3e8-4205-bc46-3cab48e19f49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sda" input
+			(at 44.45 107.95 0)
+			(uuid "075bdf3c-8857-4bfa-a9bc-27c952269fe6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
