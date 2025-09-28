@@ -1,5 +1,5 @@
 (fp_lib_table
   (version 7)
-  (lib (name "kb2040")(type "KiCad")(uri "C:/Users/zrgra/UVex/ghost_kicad/host/kb2040-kicad-master/kb2040.pretty")(options "")(descr ""))
-  (lib (name "RJ12_Pin_Connector")(type "KiCad")(uri "C:/Users/zrgra/UVex/ghost_kicad/RJ12_Pin_Connector.pretty")(options "")(descr ""))
+  (lib (name "kb2040")(type "KiCad")(uri "${KIPRJMOD}/../kb2040-kicad-master/kb2040.pretty")(options "")(descr ""))
+  (lib (name "RJ12_Pin_Connector")(type "KiCad")(uri "${KIPRJMOD}/../../RJ12_Pin_Connector.pretty")(options "")(descr ""))
 )
