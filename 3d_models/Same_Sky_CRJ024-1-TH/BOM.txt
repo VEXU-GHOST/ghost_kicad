@@ -1,0 +1,3 @@
+3DX_Same_Sky_Supplier: Same Sky
+3DX_Same_Sky_Description: 6P6C, Single Port, Vertical, Shielded, No LED, Through Hole, RJ12 Modular Connector
+3DX_Same_Sky_Model Number: CRJ024-1-TH

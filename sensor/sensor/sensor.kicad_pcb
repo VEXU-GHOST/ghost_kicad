@@ -7230,15 +7230,26 @@
 			(uuid "4263e27c-f34c-4cf0-9c12-08b2e5cf7c16")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ12_Amphenol_54601-x06_Horizontal.step"
+		(model "C:/Users/haici/ghost_kicad/3d_models/BELFUSE_SS6466SAPG1/SS-6466S-A-PG1.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 3.2 -19.7 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 -180 180)
+			)
+		)
+		(model "C:/Users/haici/ghost_kicad/3d_models/Same_Sky_CRJ024-1-TH/Same_Sky_CRJ024-1-TH.step"
+			(offset
+				(xyz 5.05 -5.3 -14.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -9569,6 +9580,329 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_SMD:Nidec_Copal_SH-7010B"
+		(layer "F.Cu")
+		(uuid "a4d1f960-4bb0-47e6-8b14-344da54e58d5")
+		(at 118.8 52)
+		(descr "4-bit rotary coded switch, gull wing, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf")
+		(tags "rotary switch bcd")
+		(property "Reference" "REF**"
+			(at 0 -4.9 0)
+			(layer "F.SilkS")
+			(uuid "7910f954-9558-4e69-9c93-f236f00b5c31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Nidec_Copal_SH-7010B"
+			(at 0 4.9 0)
+			(layer "F.Fab")
+			(uuid "82204f3f-45e0-4a71-9742-a0408d94f3e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8dc5a3e-d08e-41be-bed9-8591a738230f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12f99961-2abb-4fc3-90ee-e70b8be1ac6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_line
+			(start -5.87 -4.02)
+			(end -4.5 -4.02)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eefc8078-251f-4e14-bbfd-40662f5352fe")
+		)
+		(fp_line
+			(start -5.87 -2.65)
+			(end -5.87 -4.02)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8690ebd1-251a-43aa-becc-ae51aa99fa1c")
+		)
+		(fp_line
+			(start -3.67 -3.77)
+			(end 3.67 -3.77)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "737c03ad-cfd1-4b7c-8e85-a318adb9e12c")
+		)
+		(fp_line
+			(start -3.67 -3.24)
+			(end -3.67 -3.77)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "20054fb9-49d2-4af2-83a9-a718d23e2708")
+		)
+		(fp_line
+			(start -3.67 -1.84)
+			(end -3.67 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "59bf6a03-564e-4942-ac09-ec9fc6c61ed3")
+		)
+		(fp_line
+			(start -3.67 0.7)
+			(end -3.67 1.84)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5c3cf640-f152-4e72-ad1c-4636ab4264bb")
+		)
+		(fp_line
+			(start -3.67 3.24)
+			(end -3.67 3.77)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "db8e9e77-fb48-4597-81ec-fca8d5c4e2d7")
+		)
+		(fp_line
+			(start -3.67 3.77)
+			(end 3.67 3.77)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0eab053d-9965-4c6b-8653-0becf621d338")
+		)
+		(fp_line
+			(start 3.67 -3.77)
+			(end 3.67 -3.24)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9b05cb81-d578-4ae1-8591-ccc8114dd217")
+		)
+		(fp_line
+			(start 3.67 -1.84)
+			(end 3.67 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3173af9e-2f10-4620-95a1-3d69cc15f926")
+		)
+		(fp_line
+			(start 3.67 0.7)
+			(end 3.67 1.84)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "158253ff-9959-4437-a771-f23bb2fc93e5")
+		)
+		(fp_line
+			(start 3.67 3.77)
+			(end 3.67 3.24)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1eded67d-180c-42ae-b2d2-e537a6735f69")
+		)
+		(fp_line
+			(start -5.75 -3.9)
+			(end -5.75 3.9)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8de9a2ab-31a6-4f6d-9549-1e61470f651e")
+		)
+		(fp_line
+			(start -5.75 3.9)
+			(end 5.75 3.9)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d5fdd419-5e7c-40f6-81f4-64a566ea23d8")
+		)
+		(fp_line
+			(start 5.75 -3.9)
+			(end -5.75 -3.9)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "622af68a-0a8e-47a1-9a56-8231fd6afe6b")
+		)
+		(fp_line
+			(start 5.75 3.9)
+			(end 5.75 -3.9)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4cd2d48e-1cbc-4021-bfcc-dc0b092c6a96")
+		)
+		(fp_line
+			(start -3.55 -2.65)
+			(end -2.55 -3.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0bca1168-5568-4d64-8b7e-0ab6041e4d3f")
+		)
+		(fp_line
+			(start -3.55 3.65)
+			(end -3.55 -2.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3a1f3d73-9df0-4d05-b20d-09c12991a7f0")
+		)
+		(fp_line
+			(start -2.55 -3.65)
+			(end 3.55 -3.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7e793d62-5b7d-4bda-bf37-8c75ed339b5d")
+		)
+		(fp_line
+			(start 3.55 -3.65)
+			(end 3.55 3.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ddf707e7-ad06-42cc-b7fa-c5a0474841c0")
+		)
+		(fp_line
+			(start 3.55 3.65)
+			(end -3.55 3.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c4ac831a-39c9-4113-a477-8937847f7762")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "dbeaa089-fec3-4668-9cd4-f3123d846633")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -4 -2.54)
+			(size 3 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "bf5de3aa-8ed6-46a5-97e3-5ed437c5c0c9")
+		)
+		(pad "2" smd rect
+			(at 4 2.54)
+			(size 3 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "f557c01d-d890-4a69-bbb3-caeb9a2fef74")
+		)
+		(pad "4" smd rect
+			(at -4 2.54)
+			(size 3 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "57225aaa-6af9-45a7-a118-41dd1e1a46dc")
+		)
+		(pad "8" smd rect
+			(at 4 -2.54)
+			(size 3 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "9003f05e-45b8-458e-9cee-9fa439cd224c")
+		)
+		(pad "C" smd rect
+			(at -4 0)
+			(size 3 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "6557429d-13c2-43bd-b32c-94469d842620")
+		)
+		(pad "C" smd rect
+			(at 4 0)
+			(size 3 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "be4cf8ec-0b87-431b-b382-76a99877cba6")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/Nidec_Copal_SH-7010B.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
