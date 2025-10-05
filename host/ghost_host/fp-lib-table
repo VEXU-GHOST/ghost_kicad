@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "kb2040")(type "KiCad")(uri "${KIPRJMOD}/../kb2040-kicad-master/kb2040.pretty")(options "")(descr ""))
   (lib (name "RJ12_Pin_Connector")(type "KiCad")(uri "${KIPRJMOD}/../../RJ12_Pin_Connector.pretty")(options "")(descr ""))
+  (lib (name "3D_Models")(type "KiCad")(uri "${KIPRJMOD}/../../UVex/ghost_kicad/3d_models")(options "")(descr ""))
 )
