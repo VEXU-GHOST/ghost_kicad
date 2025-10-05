@@ -1,0 +1,132 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SH-7050MB"
+   (description "Copal Electronics SH-7000, 16 Position SP16T Rotary Switch, 100 mA, Gull Wing")
+   (family "SWI")
+   (package "SH7050MB")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "3.75mm")
+   (attribute "Mouser Part Number" "229-SH-7050MB")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nidec-Components/SH-7050MB?qs=XeJtXLiO41RDpFTGiyYBpQ%3D%3D")
+   (attribute "Manufacturer_Name" "Nidec Copal")
+   (attribute "Manufacturer_Part_Number" "SH-7050MB")
+   (gate
+    (symbol "SH-7050MB")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "4" 4 PS)
+    (pin "8" 8 PS)
+    (pin "C1" C1 PS)
+    (pin "C2" C2 PS)
+   )
+  )
+  (symbol "SH-7050MB"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 900 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SH7050MB"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.65 3.55)
+      (pt 3.65 3.55)
+      (pt 3.65 -3.55)
+      (pt -3.65 -3.55)
+      (pt -3.65 3.55))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.65 7.1)
+      (pt 4.65 7.1)
+      (pt 4.65 -6.5)
+      (pt -4.65 -6.5)
+      (pt -4.65 7.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.65 3.55)
+      (pt -3.65 -3.55))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 3.65 3.55)
+      (pt 3.65 -3.55))))
+   (layer TSLK
+    (graphic
+     (stroke 0.3)
+     (path
+      (closed true)
+      (pt 2.5 6)
+      (arc (pt 2.500 6.000) (pt 2.450 6.000) (pt 2.550 6.100) (start 180.0) (sweep -90.0))
+      (pt 2.5 6.1)
+      (arc (pt 2.500 6.100) (pt 2.450 6.000) (pt 2.550 6.100) (start 180.0) (sweep 90.0))
+      (pt 2.5 6))))
+   (leg 1 (pt 2.540 4.000) (padstack 0))
+   (leg 2 (pt -2.540 -4.000) (padstack 0))
+   (leg 4 (pt -2.540 4.000) (padstack 0))
+   (leg 8 (pt 2.540 -4.000) (padstack 0))
+   (leg C1 (pt 0.000 4.000) (padstack 0))
+   (leg C2 (pt 0.000 -4.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.000 3.000 0 0 90.000))
+   )
+   (model "SH-7050MB.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SH-7050MB"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-07-17-10:09:46)
+    (mountForm default
+        (footprintRef "SH7050MB")
+        (spec "System")
+    )
+)

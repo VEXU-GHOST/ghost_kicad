@@ -125,4 +125,15 @@
 		(uuid "cecc9a29-21ca-4502-998c-3ef0b9874eef")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/haici/ghost_kicad/3d_models/SH-7050MB/3D/SH-7050MB.stp"
+		(offset
+			(xyz 0 5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )

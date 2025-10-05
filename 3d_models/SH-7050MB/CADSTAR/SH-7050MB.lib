@@ -1,0 +1,17 @@
+.SH-7050MB :1 ;Copal Electronics SH-7000, 16 Position SP16T Rotary Switch, 100 mA, Gull Wing
+SH7050MB
+*STM S
+*NGS
+*PNM 1=1 2=2 3=4 4=8 5=C1 6=C2
+*PLB 1="1" 2="2" 3="4" 4="8" 5="C1" 6="C2"
+*MXP 6
+*DFN SH-7050MB
+~!Mouser Part Number (229-SH-7050MB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nidec-Components/SH-7050MB?qs=XeJtXLiO41RDpFTGiyYBpQ%3D%3D)
+~!Manufacturer_Name (Nidec Copal)
+~!Manufacturer_Part_Number (SH-7050MB)
+~!Link Datasheet (-)
+~!Height (3.75mm)
+~!3D_Model (SH-7050MB)
+SH-7050MB
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 
