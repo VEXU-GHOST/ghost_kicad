@@ -53,7 +53,7 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -8.89 -15.24)
+		(start -8.89 -15.7)
 		(end -8.89 17.78)
 		(stroke
 			(width 0.381)
@@ -73,18 +73,8 @@
 		(uuid "a05d7640-f2f6-4ba7-8c51-5a4af431fc13")
 	)
 	(fp_line
-		(start -8.84 -15.7)
-		(end -8.89 -15.24)
-		(stroke
-			(width 0.381)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e8314017-7be6-4011-9179-37449a29b311")
-	)
-	(fp_line
-		(start 8.89 -15.7)
-		(end -8.84 -15.7)
+		(start 8.88 -15.7)
+		(end -8.89 -15.7)
 		(stroke
 			(width 0.381)
 			(type solid)
@@ -152,15 +142,16 @@
 		(layer "Dwgs.User")
 		(uuid "e10b5627-3247-4c86-b9f6-ef474ca11543")
 	)
-	(fp_line
-		(start -8.95 -15.7)
-		(end 8.75 -15.7)
+	(fp_rect
+		(start -8.9 -15.7)
+		(end 8.9 17.8)
 		(stroke
-			(width 0.2)
+			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "9d0f0f5f-d218-4ae5-8f8d-79dbb9b561c0")
+		(uuid "17b54b4b-50cb-4c30-856e-04a0634a92a7")
 	)
 	(fp_text user "A3/29"
 		(at 4.52381 -1.4 0)

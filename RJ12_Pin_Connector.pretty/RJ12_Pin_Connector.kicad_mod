@@ -335,7 +335,8 @@
 		(uuid "1a406897-10ac-4332-a4b0-d2322a32694b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ12_Amphenol_54601-x06_Horizontal.step"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE538X.step"
+		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
@@ -346,8 +347,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "C:/Users/haici/ghost_kicad/3d_models/BELFUSE_SS6466SAPG1/SS-6466S-A-PG1.stp"
-		(hide yes)
+	(model "${KIPRJMOD}/../../3d_models/BELFUSE_SS6466SAPG1/SS-6466S-A-PG1.stp"
 		(offset
 			(xyz 3.2 -19.7 0)
 		)
@@ -358,8 +358,7 @@
 			(xyz -90 -0 -0)
 		)
 	)
-	(model "C:/Users/haici/ghost_kicad/3d_models/Same_Sky_CRJ024-1-TH/Same_Sky_CRJ024-1-TH.step"
-		(hide yes)
+	(model "${KIPRJMOD}/../../3d_models/Same_Sky_CRJ024-1-TH/Same_Sky_CRJ024-1-TH.step"
 		(offset
 			(xyz 5 -5.3 -14.5)
 		)
