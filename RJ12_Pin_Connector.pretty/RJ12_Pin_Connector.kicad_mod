@@ -347,6 +347,7 @@
 		)
 	)
 	(model "C:/Users/haici/ghost_kicad/3d_models/BELFUSE_SS6466SAPG1/SS-6466S-A-PG1.stp"
+		(hide yes)
 		(offset
 			(xyz 3.2 -19.7 0)
 		)
@@ -358,6 +359,7 @@
 		)
 	)
 	(model "C:/Users/haici/ghost_kicad/3d_models/Same_Sky_CRJ024-1-TH/Same_Sky_CRJ024-1-TH.step"
+		(hide yes)
 		(offset
 			(xyz 5 -5.3 -14.5)
 		)
