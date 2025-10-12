@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model VL53L4CDV0DH_1
+#/15798643/1781384/2.50/13/2/Integrated Circuit
+DEF VL53L4CDV0DH_1 IC 0 30 Y Y 1 F N
+F0 "IC" 1650 300 50 H V L CNN
+F1 "VL53L4CDV0DH_1" 1650 200 50 H V L CNN
+F2 "VL53L4CDV0DH1" 1650 100 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/vl53l4cd.pdf" 1650 0 50 H I L CNN
+F4 "Time-of-Flight high accuracy proximity sensor" 1650 -100 50 H I L CNN "Description"
+F5 "1.05" 1650 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "VL53L4CDV0DH/1" 1650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-VL53L4CDV0DH/1" 1650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L4CDV0DH-1?qs=QNEnbhJQKvbi4wYY5Ymy8w%3D%3D" 1650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "VL53L4CDV0DH/1" 1650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/vl53l4cdv0dh1/stmicroelectronics?utm_currency=USD&region=nac" 1650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X AVDDVCSEL_1 1 0 0 200 R 50 50 0 0 P
+X AVSSVCSEL 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X GND2 4 0 -300 200 R 50 50 0 0 P
+X XSHUT 5 0 -400 200 R 50 50 0 0 P
+X GND3 6 0 -500 200 R 50 50 0 0 P
+X GPIO1 7 0 -600 200 R 50 50 0 0 P
+X DNC 8 1800 0 200 L 50 50 0 0 P
+X SDA 9 1800 -100 200 L 50 50 0 0 P
+X SCL 10 1800 -200 200 L 50 50 0 0 P
+X AVDD 11 1800 -300 200 L 50 50 0 0 P
+X GND4 12 1800 -400 200 L 50 50 0 0 P
+X AVDDVCSEL_2 13 1800 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1600 100 1600 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VL53L4CDV0DH_1
+D Time-of-Flight high accuracy proximity sensor
+K
+F https://www.st.com/resource/en/datasheet/vl53l4cd.pdf
+$ENDCMP
+#
+#End Doc Library
