@@ -12791,7 +12791,7 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "b52ef903-e2b3-4fa9-a1b0-2900882b2f15")
-		(at 147 87)
+		(at 147.1 85.9)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -34191,7 +34191,7 @@
 	)
 	(gr_line
 		(start 82.28 106.415)
-		(end 91.28 106.415)
+		(end 91.3 106.415)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -34274,17 +34274,6 @@
 		(layer "Edge.Cuts")
 		(uuid "3d4c944f-d30e-40c6-b748-53a1fe08544b")
 	)
-	(gr_arc
-		(start 92.28 105.415)
-		(mid 91.987107 106.122107)
-		(end 91.28 106.415)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "40ec92a9-8aa6-4c6d-8b53-38caae77b89d")
-	)
 	(gr_line
 		(start 205.78 69.92)
 		(end 196.78 69.92)
@@ -34295,25 +34284,68 @@
 		(layer "Edge.Cuts")
 		(uuid "43b30643-a32d-4da1-b312-ea305420961f")
 	)
-	(gr_line
-		(start 92.28 78.5)
-		(end 92.28 71.41)
+	(gr_arc
+		(start 95.25 95.9)
+		(mid 94.957107 96.607107)
+		(end 94.25 96.9)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "59ae9b21-5d32-45dd-9fe2-2bf2dfa34f5f")
+		(uuid "461ebd22-5ad8-458b-a904-60d8406950f7")
 	)
 	(gr_line
-		(start 95.25 78.5)
-		(end 95.25 95.85)
+		(start 93.28 78.9)
+		(end 94.25 78.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "566bd165-75bd-4b7e-b19a-7f88022aed1c")
+	)
+	(gr_line
+		(start 92.28 77.9)
+		(end 92.28 71.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "59ae9b21-5d32-45dd-9fe2-2bf2dfa34f5f")
+	)
+	(gr_arc
+		(start 93.28 78.9)
+		(mid 92.572893 78.607107)
+		(end 92.28 77.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5ceebd4d-1b0a-4cb4-a56b-cb289f380cb7")
+	)
+	(gr_line
+		(start 95.25 79.9)
+		(end 95.25 95.9)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "601aed0a-8a3b-4ef3-8144-bb5823f3a582")
+	)
+	(gr_arc
+		(start 92.3 105.415)
+		(mid 92.007107 106.122107)
+		(end 91.3 106.415)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "662ca9dc-50d1-4c78-8f38-a75b40fd0b60")
 	)
 	(gr_line
 		(start 207.78 108.415)
@@ -34367,15 +34399,16 @@
 		(layer "Edge.Cuts")
 		(uuid "840193d7-e6ec-46bc-a1ff-ad1c09a84722")
 	)
-	(gr_line
-		(start 92.28 95.85)
-		(end 92.28 105.415)
+	(gr_arc
+		(start 92.3 97.9)
+		(mid 92.592893 97.192893)
+		(end 93.3 96.9)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "8c7403df-0a0d-41f3-8850-6eab4e3a4b71")
+		(uuid "8799f97f-9274-47f2-8053-929a31d0276a")
 	)
 	(gr_line
 		(start 80.28 120.415)
@@ -34386,6 +34419,27 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "adc54e85-4f1a-4024-b90b-506ae6304e2e")
+	)
+	(gr_arc
+		(start 94.25 78.9)
+		(mid 94.957107 79.192893)
+		(end 95.25 79.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b3c323c4-432b-488f-a3de-799f1cd53398")
+	)
+	(gr_line
+		(start 92.3 105.415)
+		(end 92.3 97.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b7230f6a-e77c-4965-ac40-d67c6ce1ecf1")
 	)
 	(gr_line
 		(start 91.28 70.41)
@@ -34408,16 +34462,6 @@
 		(layer "Edge.Cuts")
 		(uuid "bc72b52d-e54f-44ba-894b-e21d3a93dfc1")
 	)
-	(gr_line
-		(start 95.25 95.85)
-		(end 92.28 95.85)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "bd61e25d-51b7-4fba-8d83-a8e253affaec")
-	)
 	(gr_arc
 		(start 207.78 67.92)
 		(mid 207.194214 69.334214)
@@ -34428,6 +34472,16 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "c1360905-78eb-4532-beee-1fc5e137a136")
+	)
+	(gr_line
+		(start 93.3 96.9)
+		(end 94.25 96.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "db57fae4-6d2b-46eb-9046-619715df8bec")
 	)
 	(gr_arc
 		(start 82.28 122.415)
@@ -34449,16 +34503,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f6118818-f03f-4d39-95c1-0ee7864996cb")
-	)
-	(gr_line
-		(start 92.28 78.5)
-		(end 95.25 78.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ff8efe09-f80f-4274-bbf8-82dfb94a5986")
 	)
 	(gr_text "IEEE RAS-VEX U TEAM GHOST"
 		(at 96.4 89.7 0)
