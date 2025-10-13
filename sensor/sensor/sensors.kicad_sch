@@ -3575,7 +3575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 43.4848 63.5 0)
 			(effects
 				(font
@@ -4130,7 +4130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 90.932 58.42 90)
 			(effects
 				(font
@@ -4326,7 +4326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1u"
+		(property "Value" "0.1u"
 			(at 53.34 60.9599 0)
 			(effects
 				(font
@@ -4335,7 +4335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 50.4952 63.5 0)
 			(effects
 				(font
@@ -4534,7 +4534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 42.418 154.94 90)
 			(effects
 				(font
@@ -5001,7 +5001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ISL29125IROZT7"
+		(property "Footprint" "ISL29125:ISL29125IROZT7"
 			(at 81.28 162.23 0)
 			(effects
 				(font
@@ -5292,7 +5292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 113.9952 173.99 0)
 			(effects
 				(font
@@ -5816,7 +5816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 32.512 148.59 90)
 			(effects
 				(font
@@ -6011,7 +6011,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 104.14 171.4499 0)
 			(effects
 				(font
@@ -6020,7 +6020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 101.2952 173.99 0)
 			(effects
 				(font
@@ -6158,7 +6158,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 58.42 57.658 90)
 			(effects
 				(font
@@ -6500,7 +6500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VL53L4CDV0DH1"
+		(property "Footprint" "VL53L4CD:VL53L4CDV0DH1"
 			(at 90.17 244.78 0)
 			(effects
 				(font
