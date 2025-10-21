@@ -1655,7 +1655,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:SW-SMD_MS-22D28-G020"
+		(property "Footprint" "ghost:SW-SMD_MS-22D28-G020"
 			(at 95.25 62.23 0)
 			(effects
 				(font
@@ -1775,7 +1775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:SW-SMD_MS-22D28-G020"
+		(property "Footprint" "ghost:SW-SMD_MS-22D28-G020"
 			(at 95.25 91.44 0)
 			(effects
 				(font
@@ -1893,7 +1893,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RJ45Connector:RJ45-TH_RC0139"
+		(property "Footprint" "ghost:RJ45-TH_RC0139"
 			(at 243.84 130.175 90)
 			(effects
 				(font
@@ -1981,7 +1981,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RJ45Connector:RJ45-TH_RC0139"
+		(property "Footprint" "ghost:RJ45-TH_RC0139"
 			(at 243.84 51.435 90)
 			(effects
 				(font
@@ -2071,7 +2071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:SW-SMD_MS-22D28-G020"
+		(property "Footprint" "ghost:SW-SMD_MS-22D28-G020"
 			(at 99.06 116.84 0)
 			(effects
 				(font
@@ -2255,7 +2255,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RJ45Connector:RJ45-TH_RC0139"
+		(property "Footprint" "ghost:RJ45-TH_RC0139"
 			(at 243.84 103.505 90)
 			(effects
 				(font
@@ -2343,7 +2343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW-SMD_MS-22D28-G020"
+		(property "Footprint" "ghost:SW-SMD_MS-22D28-G020"
 			(at 146.05 128.27 0)
 			(effects
 				(font
@@ -2461,7 +2461,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RJ45Connector:RJ45-TH_RC0139"
+		(property "Footprint" "ghost:RJ45-TH_RC0139"
 			(at 243.84 76.835 90)
 			(effects
 				(font
@@ -2549,7 +2549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW-SMD_MS-22D28-G020"
+		(property "Footprint" "ghost:SW-SMD_MS-22D28-G020"
 			(at 179.07 148.59 0)
 			(effects
 				(font
