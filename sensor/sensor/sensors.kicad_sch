@@ -2827,6 +2827,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a81f58ac-8c37-460f-851e-de0825047e06")
 		)
@@ -2914,7 +2932,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "1899bf5a-cab6-45ec-ba41-b7c339f5907d")
 		(property "Reference" "R23"
@@ -2953,6 +2971,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 157.48 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 157.48 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 157.48 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,7 +3149,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b4b5857-e238-4b86-8237-8488654ad1d3")
@@ -3162,6 +3198,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 92.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 92.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dbe3a34a-5330-4160-8442-ba59dab440a0")
 		)
@@ -3183,7 +3237,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35b38501-cee0-4e08-ac74-b60759d8e8c9")
@@ -3223,6 +3277,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 157.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 157.48 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 157.48 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,6 +3364,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 49.53 59.69 0)
 			(effects
 				(font
@@ -3434,6 +3524,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 40.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 40.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "63d2b959-10e2-4690-b466-0d28df0662b1")
 		)
@@ -3496,6 +3604,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 167.64 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 167.64 39.37 0)
 			(effects
 				(font
@@ -3843,6 +3969,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 57.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" " C2654928"
+			(at 57.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "29f0afa9-784c-4ee5-a041-7da40de42c9a")
 		)
@@ -3924,6 +4068,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 113.03 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 113.03 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0d935a5-df05-4904-903d-198fd3a52f71")
 		)
@@ -3945,7 +4107,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86e070e6-b7a8-4c5c-99a8-e64094224f01")
@@ -3986,6 +4148,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 177.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 177.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 177.8 78.74 0)
 			(effects
 				(font
@@ -4131,6 +4311,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 212.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 212.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb209052-cd6d-4b54-8a01-4081e57ff75f")
 		)
@@ -4193,6 +4391,33 @@
 			)
 		)
 		(property "Description" "High performance 6-Axis MEMS motion tracking, SPI/I2C interface, LGA-16"
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ICM-20602"
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C97633"
 			(at 196.85 69.85 0)
 			(effects
 				(font
@@ -4313,6 +4538,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51f8d5d0-8834-4e5d-bd10-80e7219fdd1e")
 		)
@@ -4374,6 +4617,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 34.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 34.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 34.29 148.59 0)
 			(effects
 				(font
@@ -4586,6 +4847,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 100.33 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 100.33 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc61e8e5-a2ec-4ecb-9b5b-41ac979b06a5")
 		)
@@ -4656,6 +4935,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b36b02d6-f5cf-48d4-8580-cea9ec95f6f6")
 		)
@@ -4717,6 +5014,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 58.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 58.42 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 58.42 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,6 +5242,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 48.26 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" " C3178291"
+			(at 48.26 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
