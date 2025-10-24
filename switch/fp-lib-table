@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ghost")(type "KiCad")(uri "${KIPRJMOD}/footprint/ghost.pretty")(options "")(descr ""))
+)
