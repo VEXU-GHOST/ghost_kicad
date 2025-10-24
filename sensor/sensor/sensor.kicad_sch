@@ -4311,6 +4311,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 78.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 78.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "307644e1-8a58-490a-bdd5-fab63a6bbea0")
 		)
@@ -4407,6 +4425,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "TPS73101DBV"
+			(at 46.99 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 46.99 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 46.99 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "13b42350-94ca-4717-8818-bed048006967")
 		)
@@ -4436,7 +4481,7 @@
 		(at 25.4 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4477,6 +4522,24 @@
 			)
 		)
 		(property "Description" "Rotary switch, 4-bit encoding, 16 positions, Real code"
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" ""
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 25.4 129.54 0)
 			(effects
 				(font
@@ -4564,6 +4627,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 187.96 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 187.96 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc501a26-6e44-4ee5-aca8-68ffe9f44225")
 		)
@@ -4624,6 +4705,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 85.09 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 85.09 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 85.09 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4833,6 +4932,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b0eb2a4-39cb-4b8b-a391-62fd6a5e248b")
 		)
@@ -4895,6 +5012,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 270.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM06B-SRSS-TB(LF)(SN)"
+			(at 270.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 270.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C160405"
 			(at 270.51 77.47 0)
 			(effects
 				(font
@@ -4975,6 +5119,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 85.09 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 85.09 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 85.09 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,6 +5412,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a714496e-27c8-4fdf-8ed8-a3ea3576d2f2")
 		)
@@ -5386,6 +5566,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "23892893-d499-4cba-b8fb-20b7732c8b69")
 		)
@@ -5448,6 +5646,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 200.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 200.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 200.66 76.2 0)
 			(effects
 				(font
@@ -5655,6 +5871,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 85.09 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 85.09 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2348b46-67a6-42cb-a202-27bcb216a306")
 		)
@@ -5676,7 +5910,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63e1a1b7-9964-4103-9b4a-537224e70c7e")
@@ -5717,6 +5951,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 138.43 78.74 0)
 			(effects
 				(font
@@ -5787,6 +6039,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 187.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 187.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 187.96 72.39 0)
 			(effects
 				(font
@@ -6129,6 +6399,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 187.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 187.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c2ea8327-01de-4e1e-8621-b63669cb2099")
 		)
@@ -6188,6 +6476,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 62.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 62.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 62.23 115.57 0)
 			(effects
 				(font
@@ -6329,6 +6635,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 69.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 69.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c5549a6-83b6-45dd-a68a-057645af1c78")
 		)
@@ -6399,6 +6723,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 74.93 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 74.93 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "948510de-e1da-48ed-b391-23cdbd8f1cc1")
 		)
@@ -6458,6 +6800,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 77.47 115.57 0)
 			(effects
 				(font
@@ -6731,6 +7091,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 54.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 54.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b53bb747-73a5-4a0d-bfac-594c84ba1b8e")
 		)
@@ -6793,6 +7171,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 222.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" ""
+			(at 222.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 222.25 33.02 0)
 			(effects
 				(font
@@ -6950,7 +7346,7 @@
 		(at 240.03 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9ff8fa03-bd13-4bdc-94e9-78fc7a2b9a85")
@@ -6991,6 +7387,24 @@
 			)
 		)
 		(property "Description" "RJ connector, 6P6C (6 positions 6 connected), Shielded"
+			(at 240.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" ""
+			(at 240.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 240.03 77.47 0)
 			(effects
 				(font
@@ -7084,6 +7498,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 64.77 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 64.77 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "518ea720-038a-4da5-b4c6-eef87ccf0f42")
 		)
@@ -7105,7 +7537,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a35c1f1a-39af-4468-94ab-e67fe156f0a1")
@@ -7146,6 +7578,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 133.35 73.66 0)
 			(effects
 				(font
@@ -7214,6 +7664,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 132.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XY-SM04B-SRSS-TB"
+			(at 132.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 132.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C51940130"
 			(at 132.08 96.52 0)
 			(effects
 				(font
@@ -7298,6 +7775,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "62434ca1-cfad-4902-b6b9-6df227be23a7")
 		)
@@ -7360,6 +7855,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 64.77 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 64.77 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 64.77 173.99 0)
 			(effects
 				(font
@@ -7504,6 +8017,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" ""
+			(at 237.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 237.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63f29cd5-d4da-454c-9929-2388c761d3bb")
 		)
@@ -7562,6 +8093,33 @@
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 222.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM06B-SRSS-TB(LF)(SN)"
+			(at 222.25 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 222.25 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C160405"
+			(at 222.25 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7715,6 +8273,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 85.09 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 85.09 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6690781a-1ac8-4aae-a964-7df15774d32d")
 		)
@@ -7775,6 +8351,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 109.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 109.22 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 109.22 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7844,6 +8438,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 200.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 200.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 200.66 91.44 0)
 			(effects
 				(font
@@ -7981,6 +8593,24 @@
 			)
 		)
 		(property "Description" "Dual bidirectional hot-swap multipoint bus buffer, SO-8"
+			(at 163.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "JLCPCB"
+			(at 163.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 163.83 77.47 0)
 			(effects
 				(font
@@ -8147,6 +8777,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Name" "JLCPCB"
+			(at 147.32 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 147.32 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0437fa57-84db-49f4-8ef2-26747c9636b2")
 		)
@@ -8167,7 +8815,7 @@
 		(at 222.25 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fcae726a-f8f6-4429-9915-995c24137ec8")
@@ -8209,6 +8857,24 @@
 		)
 		(property "Description" "RJ connector, 6P6C (6 positions 6 connected), Shielded"
 			(at 222.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" ""
+			(at 222.25 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" ""
+			(at 222.25 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
