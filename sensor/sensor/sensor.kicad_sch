@@ -4262,7 +4262,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0557b244-0a74-4854-8d98-49741d255592")
@@ -4941,7 +4941,16 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "C15849"
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A105KB8NNNC"
 			(at 29.21 173.99 0)
 			(effects
 				(font
@@ -4970,7 +4979,7 @@
 		(at 270.51 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5038,7 +5047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "C160405"
+		(property "Supplier Part Number" ""
 			(at 270.51 77.47 0)
 			(effects
 				(font
@@ -5575,7 +5584,16 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "C15849"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A105KB8NNNC"
 			(at 83.82 173.99 0)
 			(effects
 				(font
@@ -5910,7 +5928,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63e1a1b7-9964-4103-9b4a-537224e70c7e")
@@ -6732,7 +6750,16 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "C1523"
+			(at 74.93 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402B102K500NT"
 			(at 74.93 173.99 0)
 			(effects
 				(font
@@ -7537,7 +7564,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a35c1f1a-39af-4468-94ab-e67fe156f0a1")
@@ -7624,7 +7651,7 @@
 		(at 132.08 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7690,7 +7717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "C51940130"
+		(property "Supplier Part Number" ""
 			(at 132.08 96.52 0)
 			(effects
 				(font
@@ -8053,7 +8080,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d09f1f41-b18f-478a-ae04-5a3801dcb519")
@@ -8118,7 +8145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "C160405"
+		(property "Supplier Part Number" ""
 			(at 222.25 139.7 90)
 			(effects
 				(font
@@ -8551,7 +8578,7 @@
 		(at 163.83 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8601,7 +8628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Name" "JLCPCB"
+		(property "Supplier Name" "NXP"
 			(at 163.83 77.47 0)
 			(effects
 				(font
@@ -8611,6 +8638,15 @@
 			)
 		)
 		(property "Supplier Part Number" ""
+			(at 163.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PCA9615DP"
 			(at 163.83 77.47 0)
 			(effects
 				(font
