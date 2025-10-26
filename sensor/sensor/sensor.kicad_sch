@@ -4311,7 +4311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Name" "Mouser/Digikey"
+		(property "Supplier Name" "JLCPCB"
 			(at 78.74 80.01 0)
 			(effects
 				(font
@@ -4357,6 +4357,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTC4316xMS"
+			(at 78.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "LTC4316xMS"
 			(at 78.74 80.01 0)
 			(effects
 				(font
@@ -4515,6 +4524,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "TPS73101DBV"
+			(at 46.99 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "13b42350-94ca-4717-8818-bed048006967")
 		)
@@ -4639,6 +4657,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ES07MP-16RBZ-L1500"
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
 			(at 25.4 129.54 0)
 			(effects
 				(font
@@ -4780,6 +4807,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "0402WGF6040TCE"
+			(at 187.96 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc501a26-6e44-4ee5-aca8-68ffe9f44225")
 		)
@@ -4893,6 +4929,15 @@
 			)
 		)
 		(property "Variant" ""
+			(at 85.09 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "0402WGF7503TCE"
 			(at 85.09 129.54 90)
 			(effects
 				(font
@@ -5139,6 +5184,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C15849"
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b0eb2a4-39cb-4b8b-a391-62fd6a5e248b")
 		)
@@ -5246,6 +5300,15 @@
 			)
 		)
 		(property "Variant" ""
+			(at 270.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C160405"
 			(at 270.51 77.47 0)
 			(effects
 				(font
@@ -5379,6 +5442,15 @@
 			)
 		)
 		(property "Variant" ""
+			(at 85.09 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "0402WGF7873TCE"
 			(at 85.09 139.7 90)
 			(effects
 				(font
@@ -5709,6 +5781,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "0402WGF1200TCE"
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a714496e-27c8-4fdf-8ed8-a3ea3576d2f2")
 		)
@@ -5881,6 +5962,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C15849"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "23892893-d499-4cba-b8fb-20b7732c8b69")
 		)
@@ -5997,6 +6087,15 @@
 			)
 		)
 		(property "Variant" ""
+			(at 200.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "0402WGF6040TCE"
 			(at 200.66 76.2 0)
 			(effects
 				(font
@@ -6258,6 +6357,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "0402WGF4023TCE"
+			(at 85.09 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2348b46-67a6-42cb-a202-27bcb216a306")
 		)
@@ -6382,6 +6490,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "0402WGF4701TCE"
+			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58f6df32-044c-4e7c-8f84-c56323df989b")
 		)
@@ -6498,6 +6615,15 @@
 			)
 		)
 		(property "Variant" ""
+			(at 187.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "0402WGF6040TCE"
 			(at 187.96 72.39 0)
 			(effects
 				(font
@@ -6894,6 +7020,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "0402WGF1200TCE"
+			(at 187.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c2ea8327-01de-4e1e-8621-b63669cb2099")
 		)
@@ -7007,6 +7142,15 @@
 			)
 		)
 		(property "Variant" ""
+			(at 62.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "0402WGF1002TCE"
 			(at 62.23 115.57 0)
 			(effects
 				(font
@@ -7202,6 +7346,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "NQ02WGF8062TCE"
+			(at 69.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c5549a6-83b6-45dd-a68a-057645af1c78")
 		)
@@ -7300,6 +7453,15 @@
 			)
 		)
 		(property "Variant" ""
+			(at 74.93 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C1523"
 			(at 74.93 173.99 0)
 			(effects
 				(font
@@ -7421,6 +7583,15 @@
 			)
 		)
 		(property "Variant" ""
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "0402WGF4022TCE"
 			(at 77.47 115.57 0)
 			(effects
 				(font
@@ -7748,6 +7919,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "0402WGF1002TCE"
+			(at 54.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b53bb747-73a5-4a0d-bfac-594c84ba1b8e")
 		)
@@ -7846,6 +8026,15 @@
 			)
 		)
 		(property "Variant" ""
+			(at 222.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
 			(at 222.25 33.02 0)
 			(effects
 				(font
@@ -8088,6 +8277,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 240.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "f1b76ac8-df55-4611-ae18-bdd7f140665f")
 		)
@@ -8227,6 +8425,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "0402WGF3302TCE"
+			(at 64.77 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "518ea720-038a-4da5-b4c6-eef87ccf0f42")
 		)
@@ -8351,6 +8558,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "0402WGF4701TCE"
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8074306e-dbe3-45bd-a78d-e45bbced9dcd")
 		)
@@ -8456,6 +8672,15 @@
 			)
 		)
 		(property "Variant" ""
+			(at 132.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C51940130"
 			(at 132.08 96.52 0)
 			(effects
 				(font
@@ -8594,6 +8819,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "0402WGF1002TCE"
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "62434ca1-cfad-4902-b6b9-6df227be23a7")
 		)
@@ -8710,6 +8944,15 @@
 			)
 		)
 		(property "Variant" ""
+			(at 64.77 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "0402WGF5102TCE"
 			(at 64.77 173.99 0)
 			(effects
 				(font
@@ -8890,6 +9133,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 237.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63f29cd5-d4da-454c-9929-2388c761d3bb")
 		)
@@ -8992,6 +9244,15 @@
 			)
 		)
 		(property "Variant" ""
+			(at 222.25 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C160405"
 			(at 222.25 139.7 90)
 			(effects
 				(font
@@ -9200,6 +9461,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "0402WGF4023TCE"
+			(at 85.09 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6690781a-1ac8-4aae-a964-7df15774d32d")
 		)
@@ -9313,6 +9583,15 @@
 			)
 		)
 		(property "Variant" ""
+			(at 109.22 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "0402WGF2613TCE"
 			(at 109.22 120.65 90)
 			(effects
 				(font
@@ -9437,6 +9716,15 @@
 			)
 		)
 		(property "Variant" ""
+			(at 200.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "0402WGF6040TCE"
 			(at 200.66 91.44 0)
 			(effects
 				(font
@@ -9582,7 +9870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Name" "Mouser/Digikey"
+		(property "Supplier Name" "JLCPCB"
 			(at 163.83 77.47 0)
 			(effects
 				(font
@@ -9628,6 +9916,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PCA9615DP"
+			(at 163.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "PCA9615DP"
 			(at 163.83 77.47 0)
 			(effects
 				(font
@@ -9848,6 +10145,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "0402WGF1002TCE"
+			(at 147.32 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0437fa57-84db-49f4-8ef2-26747c9636b2")
 		)
@@ -9945,6 +10251,15 @@
 			)
 		)
 		(property "Variant" ""
+			(at 222.25 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
 			(at 222.25 115.57 90)
 			(effects
 				(font

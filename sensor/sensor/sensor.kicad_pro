@@ -138,7 +138,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15,
-        "min_via_annular_width": 0.25,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -192,7 +192,8 @@
         0.25,
         0.3,
         0.4,
-        0.5
+        0.5,
+        2.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -551,12 +552,6 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Substitution_Value",
-          "name": "Substitution_Value",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -575,45 +570,15 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Variant",
-          "name": "Variant",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Supplier Name",
-          "name": "Supplier Name",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Supplier Part Number",
-          "name": "Supplier Part Number",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
           "show": true
         },
         {
@@ -626,6 +591,18 @@
           "group_by": false,
           "label": "Height",
           "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
           "show": false
         },
         {
@@ -657,12 +634,6 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
         }
       ],
       "filter_string": "",
@@ -670,7 +641,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Supplier Part Number"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
