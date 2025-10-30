@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RJ12_Pin_Connector")(type "KiCad")(uri "../../RJ12_Pin_Connector.pretty")(options "")(descr ""))
+  (lib (name "ISL29125")(type "KiCad")(uri "${KIPRJMOD}/../../3d_models/ISL29125")(options "")(descr ""))
+  (lib (name "VL53L4CD")(type "KiCad")(uri "${KIPRJMOD}/../../3d_models/VL53L4CD")(options "")(descr ""))
+)
