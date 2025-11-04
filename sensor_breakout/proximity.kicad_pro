@@ -41,17 +41,23 @@
           "height": 1.27,
           "width": 2.54
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.05,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.5,
+        "silk_text_size_v": 0.5,
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -74,7 +80,8 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_to_hole": "warning",
+        "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -117,12 +124,12 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.15,
+        "min_connection": 0.15,
+        "min_copper_edge_clearance": 0.4,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.3,
+        "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -130,8 +137,8 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
@@ -180,7 +187,14 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.3,
+        0.4,
+        0.5,
+        2.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +221,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -405,6 +424,7 @@
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
@@ -440,6 +460,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -450,7 +471,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "just proximity actually.kicad_pro",
+    "filename": "proximity.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -574,12 +595,6 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB Part",
-          "name": "JLCPCB Part",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Manufacturer_Name",
           "name": "Manufacturer_Name",
           "show": false
@@ -604,8 +619,20 @@
         },
         {
           "group_by": false,
-          "label": "Substitution_Value",
-          "name": "Substitution_Value",
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
           "show": false
         },
         {
@@ -628,20 +655,20 @@
         },
         {
           "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
+          "label": "JLCPCB Part",
+          "name": "JLCPCB Part",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
+          "label": "Substitution_Value",
+          "name": "Substitution_Value",
           "show": false
         }
       ],
@@ -694,7 +721,7 @@
   },
   "sheets": [
     [
-      "d8ea7cb6-3222-464f-a573-2101d3f01632",
+      "46f6a130-b02e-4523-867c-7812ad0e1543",
       "Root"
     ]
   ],

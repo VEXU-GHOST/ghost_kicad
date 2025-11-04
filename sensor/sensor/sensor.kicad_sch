@@ -6592,7 +6592,7 @@
 				)
 			)
 		)
-		(property "Value" "LTC4316CMS#TRPBF"
+		(property "Value" "LTC4316CMS"
 			(at 69.85 69.85 0)
 			(effects
 				(font
