@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC4316CMS#TRPBF
+D Single I2C/SMBus Address Translator
+K
+F https://www.analog.com/LTC4316/datasheet
+$ENDCMP
+#
+#End Doc Library

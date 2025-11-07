@@ -26,9 +26,9 @@
         },
         "fab_line_width": 0.1,
         "fab_text_italic": false,
-        "fab_text_size_h": 1.0,
-        "fab_text_size_v": 1.0,
-        "fab_text_thickness": 0.15,
+        "fab_text_size_h": 0.5,
+        "fab_text_size_v": 0.5,
+        "fab_text_thickness": 0.125,
         "fab_text_upright": false,
         "other_line_width": 0.1,
         "other_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.75
         }
       },
       "diff_pair_dimensions": [
@@ -140,7 +140,7 @@
         "min_track_width": 0.15,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -193,6 +193,7 @@
         0.3,
         0.4,
         0.5,
+        0.75,
         2.5
       ],
       "tuning_pattern_settings": {
@@ -472,7 +473,7 @@
   },
   "meta": {
     "filename": "sensor.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -487,6 +488,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -495,9 +497,12 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3V": "rgb(42, 255, 0)",
+      "+5V": "rgb(254, 0, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -569,12 +574,6 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
@@ -596,13 +595,13 @@
           "group_by": false,
           "label": "Manufacturer_Name",
           "name": "Manufacturer_Name",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -632,6 +631,48 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Substitution_Value",
+          "name": "Substitution_Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Name",
+          "name": "Supplier Name",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part Number",
+          "name": "Supplier Part Number",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Variant",
+          "name": "Variant",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part",
+          "name": "JLCPCB Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
           "show": false
         }
       ],
