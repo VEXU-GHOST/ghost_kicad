@@ -251,7 +251,6 @@
 		(path "/3a23ab46-4ce6-4fab-b89b-96c6161ae89f")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -0.115835 0.36)
 			(end 0.115835 0.36)
@@ -542,7 +541,6 @@
 		(path "/da9cc0f2-e903-4ed5-aed8-a8c62fabfb6f")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -0.167621 0.38)
 			(end 0.167621 0.38)
@@ -807,7 +805,6 @@
 		(path "/105d7872-0aeb-4c27-a727-32bdde8fedeb")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
 			(end 0.146267 0.51)
@@ -1098,7 +1095,6 @@
 		(path "/2b4b5857-e238-4b86-8237-8488654ad1d3")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -0.167621 0.38)
 			(end 0.167621 0.38)
@@ -1350,7 +1346,6 @@
 		(path "/67e1fc3b-9c15-489b-bab9-13b3354d1c7d")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -1550,7 +1545,7 @@
 		(path "/7b1f9767-35b4-4023-9d8d-0489071c2f04")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.77 -1.77)
 			(end -1.77 -1.77)
@@ -1777,7 +1772,7 @@
 		(path "/7b1f9767-35b4-4023-9d8d-0489071c2f04")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.77 -1.77)
 			(end -1.77 -1.77)
@@ -2056,7 +2051,6 @@
 		(path "/8dd25943-bc99-4238-8cfa-71611346ec74")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -2743,7 +2737,6 @@
 		(path "/04e17a76-e3b2-43ee-bf45-d12af02f5fda")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -2995,7 +2988,6 @@
 		(path "/f6e10e20-b208-457e-8108-f45de97b7ad1")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -3260,7 +3252,6 @@
 		(path "/97376f91-cd3d-41a3-a898-67735be403bd")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -1.86 0.96)
 			(end 1 0.96)
@@ -3548,7 +3539,6 @@
 		(path "/534a85a3-2153-4919-b59f-8b71719aace3")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -1.86 0.96)
 			(end 1 0.96)
@@ -5786,26 +5776,6 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "1ab85828-1402-42d4-9fb6-0c4790efde99")
-	)
-	(gr_line
-		(start 114.5 104.1)
-		(end 114.5 112.1)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.3")
-		(uuid "8553142c-c7b9-4d44-b314-9c1ea52d8673")
-	)
-	(gr_line
-		(start 114.5 112.1)
-		(end 108.2 112.1)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.3")
-		(uuid "9f71b561-ce0f-433c-848f-28e0106d8927")
 	)
 	(gr_text "3V3"
 		(at 104.5 118 0)

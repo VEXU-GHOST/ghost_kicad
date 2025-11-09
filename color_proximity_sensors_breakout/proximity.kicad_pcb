@@ -146,6 +146,7 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "53ac1010-5c20-49dc-bb08-a13bbc20dc29")
 			(effects
 				(font
@@ -273,7 +274,6 @@
 		(path "/b7baee37-5f90-4820-a682-c00cfc9a69b1")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -0.167621 -0.38)
 			(end 0.167621 -0.38)
@@ -437,6 +437,7 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fdcc873b-73d9-4bb6-b31a-e89cd4c4f32d")
 			(effects
 				(font
@@ -564,7 +565,6 @@
 		(path "/49502289-7d01-408b-80f2-0b574d756be1")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -0.167621 0.38)
 			(end 0.167621 0.38)
@@ -728,6 +728,7 @@
 		(property "Value" "4.7u"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5f72b347-ad7a-4857-94c9-46dfb4932eec")
 			(effects
 				(font
@@ -829,7 +830,6 @@
 		(path "/798ae983-d96d-4708-b559-218e497b701d")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
 			(end 0.146267 -0.51)
@@ -993,6 +993,7 @@
 		(property "Value" "0.1u"
 			(at 0 1.16 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5ad6ec82-20af-43e7-a7cb-d0865c4ec97d")
 			(effects
 				(font
@@ -1094,7 +1095,6 @@
 		(path "/cac798df-c811-4468-abbe-9289db594816")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -0.115835 -0.36)
 			(end 0.115835 -0.36)
@@ -1294,7 +1294,7 @@
 		(path "/7b1f9767-35b4-4023-9d8d-0489071c2f04")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.77 -1.77)
 			(end -1.77 -1.77)
@@ -1998,7 +1998,7 @@
 		(path "/7b1f9767-35b4-4023-9d8d-0489071c2f04")
 		(sheetname "/")
 		(sheetfile "color+proximity.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.77 -1.77)
 			(end -1.77 -1.77)
