@@ -1,9 +1,0 @@
-Manufacturer=Nidec Copal
-PartNumber=SH-7050MB
-PartCategory=Switch
-PackageCategory=Other
-PinCount=6
-Version=1.2
-Released=2019-07-17 10:09:46
-Downloaded=2025-10-05 01:00:59
-3D=Y
