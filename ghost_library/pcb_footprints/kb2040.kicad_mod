@@ -697,7 +697,7 @@
 		(uuid "e86e4fae-9ca7-4857-a93c-bc6a3048f887")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../kb2040-kicad-master/5302 KB2040.step"
+	(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/5302 KB2040.step"
 		(offset
 			(xyz -8.8 15.2 0)
 		)

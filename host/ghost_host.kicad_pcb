@@ -955,7 +955,7 @@
 			(uuid "027b739a-49f8-417b-81d7-b8b536fc97b7")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/zrgra/UVex/ghost_kicad/3d_models/BM06B-SRSS-TB_LF__SN_/3D/BM06B-SRSS-TB_LF__SN_.stp"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM06B-SRSS-TB_LF__SN_.stp"
 			(offset
 				(xyz 0 1.9 0)
 			)
@@ -1466,7 +1466,7 @@
 			(uuid "c97f9d03-3f66-4983-aef3-41a2042376d5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../3d_models/BM04B-SRSS-TBT.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM04B-SRSS-TBT.STEP"
 			(offset
 				(xyz 0 1.25 0)
 			)
@@ -2019,7 +2019,7 @@
 			(uuid "a1dcba50-b9a1-4abb-9b01-056242e1151e")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/zrgra/UVex/ghost_kicad/3d_models/BM06B-SRSS-TB_LF__SN_/3D/BM06B-SRSS-TB_LF__SN_.stp"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM06B-SRSS-TB_LF__SN_.stp"
 			(offset
 				(xyz 0 1.9 0)
 			)
@@ -2530,7 +2530,7 @@
 			(uuid "5637ef16-76d0-4d53-bfbb-4b7f456d77d0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../3d_models/BM04B-SRSS-TBT.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM04B-SRSS-TBT.STEP"
 			(offset
 				(xyz 0 1.25 0)
 			)
@@ -3294,7 +3294,7 @@
 			(uuid "c913029c-ba08-4656-8f97-0b6bc0ca40db")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../3d_models/BM04B-SRSS-TBT.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM04B-SRSS-TBT.STEP"
 			(offset
 				(xyz 0 1.25 0)
 			)
@@ -4058,7 +4058,7 @@
 			(uuid "cad73288-f684-4790-9155-388f3d20df28")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../3d_models/BM04B-SRSS-TBT.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM04B-SRSS-TBT.STEP"
 			(offset
 				(xyz 0 1.25 0)
 			)
@@ -4611,7 +4611,7 @@
 			(uuid "e34fde59-aee7-422c-a7f5-6dc6e6983707")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/zrgra/UVex/ghost_kicad/3d_models/BM06B-SRSS-TB_LF__SN_/3D/BM06B-SRSS-TB_LF__SN_.stp"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM06B-SRSS-TB_LF__SN_.stp"
 			(offset
 				(xyz 0 1.9 0)
 			)
@@ -5445,30 +5445,7 @@
 			(uuid "fee11782-c784-4c77-986e-dcadd8479020")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE538X.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/BELFUSE_SS6466SAPG1/SS-6466S-A-PG1.stp"
-			(offset
-				(xyz 3.2 -19.7 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/Same_Sky_CRJ024-1-TH/Same_Sky_CRJ024-1-TH.step"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/Same_Sky_CRJ024-1-TH.step"
 			(offset
 				(xyz 5 -5.3 -14.5)
 			)
@@ -5888,30 +5865,7 @@
 			(uuid "81282693-6163-4b5d-b2ae-b05ae2f137b7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE538X.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/BELFUSE_SS6466SAPG1/SS-6466S-A-PG1.stp"
-			(offset
-				(xyz 3.2 -19.7 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/Same_Sky_CRJ024-1-TH/Same_Sky_CRJ024-1-TH.step"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/Same_Sky_CRJ024-1-TH.step"
 			(offset
 				(xyz 5 -5.3 -14.5)
 			)
@@ -6422,7 +6376,7 @@
 			(uuid "bbedc2e9-610f-43c9-a07f-4c1ff60bc7c3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../3d_models/BM04B-SRSS-TBT.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM04B-SRSS-TBT.STEP"
 			(offset
 				(xyz 0 1.25 0)
 			)
@@ -6933,7 +6887,7 @@
 			(uuid "9edf98fd-a350-49ed-81db-97aa3869c257")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../3d_models/BM04B-SRSS-TBT.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM04B-SRSS-TBT.STEP"
 			(offset
 				(xyz 0 1.25 0)
 			)
@@ -7859,30 +7813,7 @@
 			(uuid "facc6f5f-6446-4527-89df-1ac4bde4915d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE538X.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/BELFUSE_SS6466SAPG1/SS-6466S-A-PG1.stp"
-			(offset
-				(xyz 3.2 -19.7 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/Same_Sky_CRJ024-1-TH/Same_Sky_CRJ024-1-TH.step"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/Same_Sky_CRJ024-1-TH.step"
 			(offset
 				(xyz 5 -5.3 -14.5)
 			)
@@ -8435,7 +8366,7 @@
 			(uuid "d7376516-2560-4880-9874-d877ac423ac2")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/zrgra/UVex/ghost_kicad/3d_models/BM06B-SRSS-TB_LF__SN_/3D/BM06B-SRSS-TB_LF__SN_.stp"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM06B-SRSS-TB_LF__SN_.stp"
 			(offset
 				(xyz 0 1.9 0)
 			)
@@ -8855,30 +8786,7 @@
 			(uuid "01ebf31c-c47b-4b6b-b3ab-d908a2bb7310")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE538X.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/BELFUSE_SS6466SAPG1/SS-6466S-A-PG1.stp"
-			(offset
-				(xyz 3.2 -19.7 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/Same_Sky_CRJ024-1-TH/Same_Sky_CRJ024-1-TH.step"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/Same_Sky_CRJ024-1-TH.step"
 			(offset
 				(xyz 5 -5.3 -14.5)
 			)
@@ -9431,7 +9339,7 @@
 			(uuid "a7a818f5-63a1-4d8f-8c5c-2dcbe689ae8d")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/zrgra/UVex/ghost_kicad/3d_models/BM06B-SRSS-TB_LF__SN_/3D/BM06B-SRSS-TB_LF__SN_.stp"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM06B-SRSS-TB_LF__SN_.stp"
 			(offset
 				(xyz 0 1.9 0)
 			)
@@ -10209,30 +10117,7 @@
 			(uuid "8a54e901-3543-4b6e-b65d-5fc24ff31015")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE538X.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/BELFUSE_SS6466SAPG1/SS-6466S-A-PG1.stp"
-			(offset
-				(xyz 3.2 -19.7 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/Same_Sky_CRJ024-1-TH/Same_Sky_CRJ024-1-TH.step"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/Same_Sky_CRJ024-1-TH.step"
 			(offset
 				(xyz 5 -5.3 -14.5)
 			)
@@ -10785,7 +10670,7 @@
 			(uuid "d012aee1-c6f7-42e3-8256-751b4b2e003d")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/zrgra/UVex/ghost_kicad/3d_models/BM06B-SRSS-TB_LF__SN_/3D/BM06B-SRSS-TB_LF__SN_.stp"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM06B-SRSS-TB_LF__SN_.stp"
 			(offset
 				(xyz 0 1.9 0)
 			)
@@ -11296,7 +11181,7 @@
 			(uuid "717b1e5c-8c19-4a37-bd2b-2008e7f60552")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../3d_models/BM04B-SRSS-TBT.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM04B-SRSS-TBT.STEP"
 			(offset
 				(xyz 0 1.25 0)
 			)
@@ -11716,30 +11601,7 @@
 			(uuid "8f33d5ce-c4f6-4cb3-a963-1f625fac76bf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE538X.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/BELFUSE_SS6466SAPG1/SS-6466S-A-PG1.stp"
-			(offset
-				(xyz 3.2 -19.7 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/Same_Sky_CRJ024-1-TH/Same_Sky_CRJ024-1-TH.step"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/Same_Sky_CRJ024-1-TH.step"
 			(offset
 				(xyz 5 -5.3 -14.5)
 			)
@@ -12806,30 +12668,7 @@
 			(uuid "ec525c18-5668-4a8b-89ef-5d4d703677db")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE538X.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/BELFUSE_SS6466SAPG1/SS-6466S-A-PG1.stp"
-			(offset
-				(xyz 3.2 -19.7 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/Same_Sky_CRJ024-1-TH/Same_Sky_CRJ024-1-TH.step"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/Same_Sky_CRJ024-1-TH.step"
 			(offset
 				(xyz 5 -5.3 -14.5)
 			)
@@ -13382,7 +13221,7 @@
 			(uuid "148fc26d-8e8e-4c8f-9256-2566ede61d75")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/zrgra/UVex/ghost_kicad/3d_models/BM06B-SRSS-TB_LF__SN_/3D/BM06B-SRSS-TB_LF__SN_.stp"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM06B-SRSS-TB_LF__SN_.stp"
 			(offset
 				(xyz 0 1.9 0)
 			)
@@ -13893,7 +13732,7 @@
 			(uuid "4cbd4775-0fc0-47bf-844f-01ed6570391b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../3d_models/BM04B-SRSS-TBT.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM04B-SRSS-TBT.STEP"
 			(offset
 				(xyz 0 1.25 0)
 			)
@@ -14313,30 +14152,7 @@
 			(uuid "776cfa49-8165-44f3-be15-4ec8d5cbb46d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE538X.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/BELFUSE_SS6466SAPG1/SS-6466S-A-PG1.stp"
-			(offset
-				(xyz 3.2 -19.7 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-		(model "${KIPRJMOD}/../../3d_models/Same_Sky_CRJ024-1-TH/Same_Sky_CRJ024-1-TH.step"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/Same_Sky_CRJ024-1-TH.step"
 			(offset
 				(xyz 5 -5.3 -14.5)
 			)
@@ -17334,7 +17150,7 @@
 			(uuid "3d295a3f-7e96-4178-a963-496632d1e09d")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/zrgra/UVex/ghost_kicad/3d_models/BM06B-SRSS-TB_LF__SN_/3D/BM06B-SRSS-TB_LF__SN_.stp"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/BM06B-SRSS-TB_LF__SN_.stp"
 			(offset
 				(xyz 0 1.9 0)
 			)
@@ -18337,7 +18153,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R19"
-			(at -2.820001 -0.094998 -180)
+			(at -2.820001 -0.094998 180)
 			(layer "B.SilkS")
 			(uuid "1e7e7b32-58e4-4c9d-a894-0770e87b3f2d")
 			(effects
@@ -18349,7 +18165,7 @@
 			)
 		)
 		(property "Value" "600"
-			(at 0 -1.43 -180)
+			(at 0 -1.43 180)
 			(layer "B.Fab")
 			(uuid "a0ddf4b4-79c4-4b16-b897-90e0aeda63a1")
 			(effects
@@ -18548,7 +18364,7 @@
 			(uuid "ab3b9dfa-8b8b-476d-b5a5-ec6fd737d0db")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -180)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "c992419c-fdfc-47a8-88f9-8cf306cef519")
 			(effects
@@ -19117,7 +18933,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R14"
-			(at -2.820001 -0.094998 -180)
+			(at -2.820001 -0.094998 180)
 			(layer "B.SilkS")
 			(uuid "4103608d-40e5-4764-800c-e0ef86e0a062")
 			(effects
@@ -19129,7 +18945,7 @@
 			)
 		)
 		(property "Value" "600"
-			(at 0 -1.43 -180)
+			(at 0 -1.43 180)
 			(layer "B.Fab")
 			(uuid "3a35d67c-c1fc-4e47-ad91-68bd8b41e969")
 			(effects
@@ -19328,7 +19144,7 @@
 			(uuid "08017030-3956-4669-960e-f7b275e6cd87")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -180)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "aaab45c6-6657-49ba-a950-452de5fa0d1e")
 			(effects
@@ -20113,7 +19929,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 -1.43 -180)
+			(at 0 -1.43 180)
 			(layer "B.Fab")
 			(uuid "22f1c87d-612b-418a-aa05-7fb39ac46dd0")
 			(effects
@@ -20256,7 +20072,7 @@
 			(uuid "93c0af7d-c0fe-4bf2-84d0-aec3ef3a7c2e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -180)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "61746b54-892f-4f5c-b5a2-a24350807521")
 			(effects
@@ -21166,7 +20982,7 @@
 			(uuid "40cb7a88-2b02-4aab-aba6-ee41d2523cfd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../kb2040-kicad-master/5302 KB2040.step"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/5302 KB2040.step"
 			(offset
 				(xyz -8.8 15.2 0)
 			)
@@ -25923,7 +25739,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0.15 -1.4 -90)
+			(at 0.15 -1.4 270)
 			(layer "B.SilkS")
 			(uuid "5b47b935-65b4-4fb2-9959-f59b02ff1cbb")
 			(effects
@@ -25935,7 +25751,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 -1.43 -90)
+			(at 0 -1.43 270)
 			(layer "B.Fab")
 			(uuid "eddc58bc-49da-4b08-b19d-76134f22b8e4")
 			(effects
@@ -26078,7 +25894,7 @@
 			(uuid "85c02a89-7ac7-477c-b955-1279e6b4a260")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(uuid "bb4d3998-f5c4-4fbd-af96-a6d394acc9f9")
 			(effects
@@ -27959,7 +27775,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 -1.43 -180)
+			(at 0 -1.43 180)
 			(layer "B.Fab")
 			(uuid "f5d65c26-83e0-458a-8992-ab70c2f2833f")
 			(effects
@@ -28102,7 +27918,7 @@
 			(uuid "7bcf0ec6-d906-41c6-966c-07ddceba36a0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -180)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "13d23487-ee5b-4380-be46-c129edbc144e")
 			(effects
@@ -29723,7 +29539,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 -1.43 -180)
+			(at 0 -1.43 180)
 			(layer "B.Fab")
 			(uuid "5e688757-32c8-4c49-95ff-a4614316c529")
 			(effects
@@ -29866,7 +29682,7 @@
 			(uuid "3d59d722-353b-458d-b0aa-c1e579f8cc95")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -180)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "b888f9d4-c69d-4191-97ad-1fee887f7be1")
 			(effects
@@ -32019,7 +31835,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0.15 -1.4 -90)
+			(at 0.15 -1.4 270)
 			(layer "B.SilkS")
 			(uuid "9eeaf22e-6482-4b06-a161-24942b0d1ee3")
 			(effects
@@ -32031,7 +31847,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 -1.43 -90)
+			(at 0 -1.43 270)
 			(layer "B.Fab")
 			(uuid "937b167a-9147-4c34-a16f-f4fff08d01a0")
 			(effects
@@ -32174,7 +31990,7 @@
 			(uuid "2c9e9604-a0d2-46e5-8fcb-c51b90161321")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(uuid "c5497934-9101-4354-b764-d3ac24963e45")
 			(effects
@@ -33003,7 +32819,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R67"
-			(at -2.820001 -0.094998 -180)
+			(at -2.820001 -0.094998 180)
 			(layer "B.SilkS")
 			(uuid "887efa41-613c-4140-a931-0cb3843c1065")
 			(effects
@@ -33015,7 +32831,7 @@
 			)
 		)
 		(property "Value" "600"
-			(at 0 -1.43 -180)
+			(at 0 -1.43 180)
 			(layer "B.Fab")
 			(uuid "601c8d02-e3f1-47f3-951d-0016459af103")
 			(effects
@@ -33214,7 +33030,7 @@
 			(uuid "37381ca1-34b5-40ca-988e-919b0aa885ae")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -180)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "1afc045e-31ee-4a20-8153-bc7443aeb207")
 			(effects
@@ -35219,7 +35035,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R41"
-			(at -2.820001 -0.094998 -180)
+			(at -2.820001 -0.094998 180)
 			(layer "B.SilkS")
 			(uuid "42068160-7715-4ece-a490-9c0045952ec1")
 			(effects
@@ -35231,7 +35047,7 @@
 			)
 		)
 		(property "Value" "600"
-			(at 0 -1.43 -180)
+			(at 0 -1.43 180)
 			(layer "B.Fab")
 			(uuid "c474ce40-0d47-433d-809f-7e241f1e53e9")
 			(effects
@@ -35430,7 +35246,7 @@
 			(uuid "335822b2-df5a-4f32-9756-688443fb9504")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -180)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "092d92ab-7553-43f5-af98-c8aa1a00faab")
 			(effects
@@ -37063,7 +36879,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0.15 -1.4 -90)
+			(at 0.15 -1.4 270)
 			(layer "B.SilkS")
 			(uuid "16899fa8-d72b-4483-b6ec-da2fce3fcf1c")
 			(effects
@@ -37075,7 +36891,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 -1.43 -90)
+			(at 0 -1.43 270)
 			(layer "B.Fab")
 			(uuid "b5a2a660-bcb1-4f80-9ea4-7b71b8a38653")
 			(effects
@@ -37218,7 +37034,7 @@
 			(uuid "770974e0-f069-42a8-8aaa-afcf28047bf2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(uuid "bef02e2b-fa4f-4907-b96a-04d555987ad1")
 			(effects

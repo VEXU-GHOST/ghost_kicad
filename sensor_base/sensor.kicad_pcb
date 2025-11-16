@@ -4140,7 +4140,7 @@
 			(uuid "ec31e530-3f8c-4d85-ae4b-249c9b45dc08")
 		)
 		(embedded_fonts no)
-		(model "LTC4316CMS#TRPBF.stp"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/LTC4316CMS#TRPBF.stp"
 			(offset
 				(xyz 0 0 0.5299999634)
 			)
@@ -7014,15 +7014,15 @@
 			(uuid "12e213a8-92c9-4133-9b69-88dd15d737ac")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.wrl"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/SM04B-SRSS-TB.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 1.5 -0.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -10178,7 +10178,7 @@
 			(uuid "fbcfab12-593c-42b5-83e8-30c152959a12")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.wrl"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/SM06B-SRSS-TB_LF__SN_.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10186,7 +10186,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -10561,7 +10561,7 @@
 			(uuid "bffe8ee2-7a2e-4e0e-82f4-c473bf53bba9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.wrl"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/SM06B-SRSS-TB_LF__SN_.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10569,7 +10569,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -11282,6 +11282,17 @@
 			(uuid "8b38656b-bd14-4cda-85ec-24047106fe8b")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/GDLX-SMT-N-66 _A.IGS"
+			(offset
+				(xyz -6.6 -10.5 0.1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "GDLX-SMT-N-66:GDLXSMTN66"
 		(layer "B.Cu")
@@ -11705,6 +11716,17 @@
 			(uuid "338535ce-404d-49bb-86aa-5268ae6d34d3")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/GDLX-SMT-N-66 _A.IGS"
+			(offset
+				(xyz -6.6 -10.5 0.1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "LOGO"
 		(layer "B.Cu")
@@ -12180,7 +12202,7 @@
 			(uuid "77e49235-e264-4a5b-a984-337839b83a34")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/haici/ghost_kicad/3d_models/SH-7050MB/3D/SH-7050MB.stp"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/SH-7050MB.stp"
 			(offset
 				(xyz 0 5 0)
 			)

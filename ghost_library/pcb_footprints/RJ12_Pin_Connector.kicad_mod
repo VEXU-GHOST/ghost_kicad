@@ -336,7 +336,6 @@
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE538X.step"
-		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)

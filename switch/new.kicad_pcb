@@ -801,7 +801,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprint/ghost.pretty/JS202011SCQN.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/JS202011SCQN.STEP"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -1497,7 +1497,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprint/ghost.pretty/JS202011SCQN.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/JS202011SCQN.STEP"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -2193,7 +2193,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprint/ghost.pretty/JS202011SCQN.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/JS202011SCQN.STEP"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -2210,7 +2210,7 @@
 		(uuid "775c6c15-79e0-4dbd-9a5e-e86d00bf8f88")
 		(at 170.381817 98.385244 -135)
 		(property "Reference" "J2"
-			(at -10.255472 -4.760907 315)
+			(at -10.255472 -4.760907 135)
 			(layer "F.SilkS")
 			(uuid "26bb0725-862b-4f04-96df-e7eda7e67cac")
 			(effects
@@ -2218,11 +2218,11 @@
 					(size 0.9144 0.9144)
 					(thickness 0.1524)
 				)
-				(justify left top)
+				(justify right bottom)
 			)
 		)
 		(property "Value" "RJ45"
-			(at -8.755472 -5.260906 315)
+			(at -8.755472 -5.260906 135)
 			(layer "F.SilkS")
 			(uuid "2b52579f-2503-4240-acc6-0613e99920eb")
 			(effects
@@ -2230,7 +2230,7 @@
 					(size 0.9144 0.9144)
 					(thickness 0.1524)
 				)
-				(justify left top)
+				(justify right bottom)
 			)
 		)
 		(property "Datasheet" "~"
@@ -2616,7 +2616,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprint/ghost.pretty/54602-908LF.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/54602-908LF.STEP"
 			(offset
 				(xyz 0 15.335 7)
 			)
@@ -3313,7 +3313,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprint/ghost.pretty/54602-908LF.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/54602-908LF.STEP"
 			(offset
 				(xyz 0 15.335 7)
 			)
@@ -4009,7 +4009,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprint/ghost.pretty/JS202011SCQN.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/JS202011SCQN.STEP"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -4432,7 +4432,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprint/ghost.pretty/54602-908LF.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/54602-908LF.STEP"
 			(offset
 				(xyz 0 15.335 7)
 			)
@@ -5128,7 +5128,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprint/ghost.pretty/JS202011SCQN.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/JS202011SCQN.STEP"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -5551,7 +5551,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprint/ghost.pretty/54602-908LF.STEP"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/54602-908LF.STEP"
 			(offset
 				(xyz 0 15.335 7)
 			)

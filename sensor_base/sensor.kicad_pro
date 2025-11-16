@@ -499,10 +499,7 @@
     "meta": {
       "version": 4
     },
-    "net_colors": {
-      "+3.3V": "rgb(42, 255, 0)",
-      "+5V": "rgb(254, 0, 255)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -514,7 +511,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../docs/sensor.step",
       "svg": "",
       "vrml": ""
     },
