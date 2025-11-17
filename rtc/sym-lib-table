@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PCF8563T_5_518")(type "KiCad")(uri "${KIPRJMOD}/../ghost_library/schematic_symbols/PCF8563T_5_518.kicad_sym")(options "")(descr ""))
+)
