@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "PCF8563T_5_518")(type "KiCad")(uri "${KIPRJMOD}/../ghost_library/schematic_symbols/PCF8563T_5_518.kicad_sym")(options "")(descr ""))
+  (lib (name "CE5R5505HF-ZJ")(type "KiCad")(uri "${KIPRJMOD}/../ghost_library/schematic_symbols/CE5R5505HF-ZJ.kicad_sym")(options "")(descr ""))
+  (lib (name "LFXTAL016178REEL")(type "KiCad")(uri "${KIPRJMOD}/../ghost_library/schematic_symbols/LFXTAL016178REEL.kicad_sym")(options "")(descr ""))
 )
