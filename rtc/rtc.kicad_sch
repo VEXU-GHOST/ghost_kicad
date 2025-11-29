@@ -624,173 +624,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Variable"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Variable"
-				(at 0.635 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Variable capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "trimmer capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Variable_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.508 2.286)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Variable_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 3.048)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.048)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2420,7 +2253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "U_SO8_NXP"
+		(property "Footprint" "pcb_footprints:PCF8563T_5_518_U_SO8_NXP"
 			(at 125.73 86.36 0)
 			(effects
 				(font
@@ -2641,7 +2474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LFXTAL016178REEL"
+		(property "Footprint" "pcb_footprints:LFXTAL016178REEL"
 			(at 88.9 -6.02 0)
 			(effects
 				(font
@@ -2852,7 +2685,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 57.15 45.72 0)
 			(effects
 				(font
@@ -2984,7 +2817,7 @@
 				)
 			)
 		)
-		(property "Value" "2.5k"
+		(property "Value" "20k"
 			(at 154.94 46.99 90)
 			(effects
 				(font
@@ -2992,7 +2825,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 154.94 52.578 90)
 			(effects
 				(font
@@ -3199,7 +3032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 164.7952 62.23 0)
 			(effects
 				(font
@@ -3334,7 +3167,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 183.388 78.74 90)
 			(effects
 				(font
@@ -3386,7 +3219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87ebf427-a2e1-403f-83cc-7cf29b0a2086")
-		(property "Reference" "SUPERCAP"
+		(property "Reference" "SUPERCAP1"
 			(at 140.97 55.8799 90)
 			(effects
 				(font
@@ -3395,7 +3228,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CE5R5505HF-ZJ"
+		(property "Value" "5"
 			(at 140.97 58.4199 90)
 			(effects
 				(font
@@ -3404,7 +3237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CE5R5505HFZJ"
+		(property "Footprint" "pcb_footprints:CE5R5505HFZJ"
 			(at 40.97 59.69 0)
 			(effects
 				(font
@@ -3512,7 +3345,7 @@
 		(instances
 			(project ""
 				(path "/818bb878-dad3-4efb-a0ef-59b01bf8b5c9"
-					(reference "SUPERCAP")
+					(reference "SUPERCAP1")
 					(unit 1)
 				)
 			)
@@ -3612,7 +3445,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 192.278 78.74 90)
 			(effects
 				(font
@@ -3721,7 +3554,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Variable")
+		(lib_id "Device:C")
 		(at 123.19 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3729,8 +3562,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ee650510-b667-4e2c-b4e1-e10c248b369b")
-		(property "Reference" "C4"
+		(uuid "f52eb283-1146-4041-a51b-c55731fe6749")
+		(property "Reference" "C1"
 			(at 127 73.6599 0)
 			(effects
 				(font
@@ -3739,7 +3572,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Variable"
+		(property "Value" "C"
 			(at 127 76.1999 0)
 			(effects
 				(font
@@ -3748,8 +3581,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 123.19 74.93 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 124.1552 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Variable capacitor"
+		(property "Description" "Unpolarized capacitor"
 			(at 123.19 74.93 0)
 			(effects
 				(font
@@ -3776,15 +3609,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d4ca611-acc1-4078-b41a-811084046a2c")
+			(uuid "00a6721d-1163-44e5-9c7a-5c742d2403de")
 		)
 		(pin "2"
-			(uuid "86e0ecbf-1d3a-4f4a-b75a-f0029093360b")
+			(uuid "7eefa29e-756a-498e-b0da-88ebbae641db")
 		)
 		(instances
 			(project ""
 				(path "/818bb878-dad3-4efb-a0ef-59b01bf8b5c9"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
