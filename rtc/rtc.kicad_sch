@@ -440,7 +440,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x03_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -456,7 +456,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x03_Counter_Clockwise"
+			(property "Value" "Conn_02x03_Odd_Even"
 				(at 1.27 -5.08 0)
 				(effects
 					(font
@@ -482,7 +482,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -509,7 +509,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x03_Counter_Clockwise_1_1"
+			(symbol "Conn_02x03_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 3.81 -3.81)
@@ -608,24 +608,6 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
 					(name "Pin_3"
 						(effects
 							(font
@@ -642,25 +624,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -678,7 +642,25 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -688,6 +670,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2049,16 +2049,16 @@
 		(uuid "098f580d-71a2-4af0-81e9-034303dbc64c")
 	)
 	(no_connect
+		(at 60.96 46.99)
+		(uuid "22d4fdae-c535-4b03-aa23-784f7b2e60ef")
+	)
+	(no_connect
 		(at 180.34 87.63)
 		(uuid "3ba8fddb-8b2c-40d5-a0ea-a766ca34d415")
 	)
 	(no_connect
-		(at 60.96 46.99)
-		(uuid "4dd932ab-94ed-4e11-a2e4-faca20e75f36")
-	)
-	(no_connect
 		(at 60.96 44.45)
-		(uuid "7bed77cc-575a-4c2a-96ee-8a1f45bc476d")
+		(uuid "49f6c372-eb7b-4b76-8363-2617c7411809")
 	)
 	(wire
 		(pts
@@ -2212,16 +2212,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 46.99) (xy 48.26 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41cad5e1-ffe4-479a-a2c3-9d0c835faba3")
-	)
-	(wire
-		(pts
 			(xy 44.45 111.76) (xy 49.53 111.76)
 		)
 		(stroke
@@ -2272,6 +2262,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 49.53) (xy 48.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512607cb-0d41-4d98-a193-b1a550d77cdc")
+	)
+	(wire
+		(pts
 			(xy 172.72 53.34) (xy 182.88 53.34)
 		)
 		(stroke
@@ -2299,16 +2299,6 @@
 			(type default)
 		)
 		(uuid "67563685-424b-4ec6-9c44-e6c40b0563d4")
-	)
-	(wire
-		(pts
-			(xy 43.18 49.53) (xy 48.26 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aa0cc99-903d-4efd-89a5-b97870d6aaab")
 	)
 	(wire
 		(pts
@@ -2649,6 +2639,16 @@
 			(type default)
 		)
 		(uuid "fb4908c9-c6fb-4ca8-9ceb-43948b1251d1")
+	)
+	(wire
+		(pts
+			(xy 43.18 46.99) (xy 48.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff41afb2-3e2b-4921-90c2-3e4fc164ff71")
 	)
 	(image
 		(at 52.07 66.04)
@@ -3894,115 +3894,225 @@
 			"FgCr2To5i9MX7GU0Mjqn/EVEbvdvty8iDkOcRX8AAAAASUVORK5CYII="
 		)
 	)
-	(hierarchical_label "scl"
-		(shape input)
-		(at 205.74 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "17a64e46-7445-4590-b61f-387d0b63ce61")
-	)
-	(hierarchical_label "sda"
-		(shape input)
-		(at 44.45 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21d8acf4-51d8-4826-86d9-4250ab9f6138")
-	)
-	(hierarchical_label "sda"
-		(shape input)
-		(at 43.18 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "28e105b9-c7e0-4a76-924a-d34a2fc3f016")
-	)
-	(hierarchical_label "scl"
+	(global_label "scl"
 		(shape input)
 		(at 43.18 49.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "31b3691e-a375-433d-83f9-2dd98cf6c4e1")
+		(uuid "09a0a21b-37e8-4515-88cc-42c01e63d678")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.4129 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(hierarchical_label "sda"
+	(global_label "sda"
 		(shape input)
 		(at 205.74 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "5bc6af43-1411-4d89-a26c-80a85b74d9d8")
+		(uuid "35d94a59-b9bd-43a1-8514-264ca3005c8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.0513 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(hierarchical_label "sda"
+	(global_label "sda"
 		(shape input)
 		(at 44.45 125.73 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b5abee1b-7dea-4f0e-a1ec-17a4fafa3cf7")
-	)
-	(hierarchical_label "scl"
-		(shape input)
-		(at 44.45 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "42107f79-ea95-4e1e-8840-db31ed608842")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1387 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
 			)
-			(justify right)
 		)
-		(uuid "c6aa7c62-acfa-4a30-915e-5fa01c080d1f")
 	)
-	(hierarchical_label "scl"
-		(shape input)
-		(at 44.45 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d60b62da-9646-4944-9cfb-f146c89bf83c")
-	)
-	(hierarchical_label "scl"
-		(shape input)
-		(at 44.45 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d640570d-9ab3-4402-b870-9127778a11cb")
-	)
-	(hierarchical_label "sda"
+	(global_label "sda"
 		(shape input)
 		(at 44.45 97.79 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "fae156ba-5c0f-414b-aa58-0505746c8dcc")
+		(uuid "47bd4b18-37fa-4457-b1a0-6970188966df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1387 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "sda"
+		(shape input)
+		(at 44.45 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "488a02bd-7480-4836-b61a-7bbb25e075a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1387 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "scl"
+		(shape input)
+		(at 44.45 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dc84547-2b0a-4a93-b5fa-712286609d6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.6829 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "scl"
+		(shape input)
+		(at 205.74 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76dbf274-00c7-4f4c-a075-2a8854e0ac2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.5071 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "scl"
+		(shape input)
+		(at 44.45 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "881ca6af-f607-4c74-8e7b-c72420c83556")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.6829 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "scl"
+		(shape input)
+		(at 44.45 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5f747f9-b5dc-41da-8f60-673ebf20dadb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.6829 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "sda"
+		(shape input)
+		(at 43.18 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cbbb92f3-c635-48ea-8173-b136deaa9363")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.8687 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCF8563T_5_518:PCF8563T_5_518")
@@ -5110,6 +5220,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(at 53.34 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b776c1c-2f7a-44d0-8219-5905759d9e76")
+		(property "Reference" "J1"
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x03_Odd_Even"
+			(at 54.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+			(at 53.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e15f3684-ecf1-4b37-8c89-8a4b846e2619")
+		)
+		(pin "1"
+			(uuid "48351f48-b8ce-4668-9d59-ef3631c735e1")
+		)
+		(pin "4"
+			(uuid "13c25602-2d15-40b6-973f-457ef4dfccf0")
+		)
+		(pin "6"
+			(uuid "f293495d-9612-4448-93fc-38cc8260560d")
+		)
+		(pin "2"
+			(uuid "fb4564a2-ed32-47e7-b50f-78da03a0e984")
+		)
+		(pin "5"
+			(uuid "46acfb0a-7c1d-4d2e-a944-ee90d97bb802")
+		)
+		(instances
+			(project ""
+				(path "/818bb878-dad3-4efb-a0ef-59b01bf8b5c9"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Diode_Schottky_AKL:D_Schottky_Generic")
 		(at 182.88 44.45 270)
 		(unit 1)
@@ -5741,86 +5931,6 @@
 			(project "rtc"
 				(path "/818bb878-dad3-4efb-a0ef-59b01bf8b5c9"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
-		(at 53.34 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd839dc8-89c4-490e-a37d-459a70b43ed7")
-		(property "Reference" "J1"
-			(at 54.61 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x03_Counter_Clockwise"
-			(at 54.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
-			(at 53.34 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "756ecbf1-cab0-45af-a801-8abe90fe953a")
-		)
-		(pin "1"
-			(uuid "a1c90c20-d92d-4c39-8d8c-e5be3ba95598")
-		)
-		(pin "4"
-			(uuid "31d86e5f-7094-4cf9-923e-277a1e55da7d")
-		)
-		(pin "3"
-			(uuid "652ba014-4e60-469f-b834-7d6cb637f33f")
-		)
-		(pin "5"
-			(uuid "63ab32cf-c2ae-46a2-910b-2c78ce42fa89")
-		)
-		(pin "2"
-			(uuid "3becc0e6-3c1a-49a9-8042-0d19526247ec")
-		)
-		(instances
-			(project ""
-				(path "/818bb878-dad3-4efb-a0ef-59b01bf8b5c9"
-					(reference "J1")
 					(unit 1)
 				)
 			)
