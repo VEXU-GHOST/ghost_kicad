@@ -1,0 +1,237 @@
+(footprint "SM04BSRSSTB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SM04B-SRSS-TB-2")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 -0.288 0)
+		(layer "F.SilkS")
+		(uuid "fd850eb2-30bb-4b36-88c5-77c369897754")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SM04BSRSSTB"
+		(at 0 -0.288 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ce64e208-af03-4b1f-8139-b99e3db596e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "292e7782-13d2-4b49-b15a-938cbd3c9bb9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0e56b68-7509-4385-8014-1e176546341d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -1.963)
+		(end -2.2 -1.963)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50a20574-4116-44ba-bf99-307d0753d875")
+	)
+	(fp_line
+		(start -3 0.4)
+		(end -3 -1.963)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b37e0e5-5908-445a-bc50-4bd67747c7bf")
+	)
+	(fp_line
+		(start -1.5 -3.5)
+		(end -1.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8520c432-04c1-4c61-b66c-c9f0a2b41fa2")
+	)
+	(fp_line
+		(start -1.5 -3.4)
+		(end -1.5 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e051941-3afb-4290-8859-84a2e2ca5972")
+	)
+	(fp_line
+		(start 3 -1.963)
+		(end 2.2 -1.963)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b3d9ff2-a83b-4b12-8897-31a840847372")
+	)
+	(fp_line
+		(start 3 0.4)
+		(end 3 -1.963)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9fc9f6c-7f26-437d-8a39-a45354973615")
+	)
+	(fp_arc
+		(start -1.5 -3.5)
+		(mid -1.45 -3.45)
+		(end -1.5 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8663d8d2-f259-4da2-975c-ee63d710ac0e")
+	)
+	(fp_arc
+		(start -1.5 -3.4)
+		(mid -1.55 -3.45)
+		(end -1.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74d6e31a-cb72-44c1-990f-b526f102b946")
+	)
+	(fp_line
+		(start -3 -1.963)
+		(end 3 -1.963)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dca4f105-79fc-4b04-af88-1dbd87b9a061")
+	)
+	(fp_line
+		(start -3 2.287)
+		(end -3 -1.963)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b34295c9-99f1-4925-9b17-e5d24a9c9de9")
+	)
+	(fp_line
+		(start 3 -1.963)
+		(end 3 2.287)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76dce762-8bf2-4d80-9cd6-2fa7ec5fb17b")
+	)
+	(fp_line
+		(start 3 2.287)
+		(end -3 2.287)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a8b9036-107d-4b05-aa48-5cd1e6f6cf22")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.288 0)
+		(layer "F.Fab")
+		(uuid "28eedfc8-aac3-4bbe-a0a8-1e07aca2bb10")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 -2.287)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4153224a-bba1-41e2-9588-bb138798c3d6")
+	)
+	(pad "2" smd rect
+		(at -0.5 -2.287)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e01e1c52-b072-4531-bfcd-866d710f1b1b")
+	)
+	(pad "3" smd rect
+		(at 0.5 -2.287)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "48164e4e-9e2c-4db6-b5cb-bfb1ad69a99c")
+	)
+	(pad "4" smd rect
+		(at 1.5 -2.287)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0db01d7c-8a38-4560-a3ce-c3637774dc9d")
+	)
+	(pad "MP1" smd rect
+		(at -2.8 1.588)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "da5387c7-7695-46b1-bbb0-4c1a99ee13fe")
+	)
+	(pad "MP2" smd rect
+		(at 2.8 1.588)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "de9e99fa-5356-4611-bc5b-04974a244d25")
+	)
+	(embedded_fonts no)
+	(model "SM04B-SRSS-TB.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

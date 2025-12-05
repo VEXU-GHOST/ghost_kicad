@@ -4,4 +4,5 @@
   (lib (name "CE5R5505HF-ZJ")(type "KiCad")(uri "${KIPRJMOD}/../ghost_library/schematic_symbols/CE5R5505HF-ZJ.kicad_sym")(options "")(descr ""))
   (lib (name "LFXTAL016178REEL")(type "KiCad")(uri "${KIPRJMOD}/../ghost_library/schematic_symbols/LFXTAL016178REEL.kicad_sym")(options "")(descr ""))
   (lib (name "RB751V-40X_R1_00001")(type "KiCad")(uri "${KIPRJMOD}/../ghost_library/schematic_symbols/RB751V-40X_R1_00001.kicad_sym")(options "")(descr ""))
+  (lib (name "SM04B-SRSS-TB")(type "KiCad")(uri "${KIPRJMOD}/../ghost_library/schematic_symbols/SM04B-SRSS-TB.kicad_sym")(options "")(descr ""))
 )
