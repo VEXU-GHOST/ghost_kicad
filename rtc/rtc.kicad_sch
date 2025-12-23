@@ -837,6 +837,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1920,7 +2103,7 @@
 	)
 	(rectangle
 		(start 74.93 30.48)
-		(end 214.63 109.22)
+		(end 227.33 109.22)
 		(stroke
 			(width 0)
 			(type default)
@@ -1985,10 +2168,16 @@
 		(uuid "c7c6c9d5-0169-429b-bd77-644586e27719")
 	)
 	(junction
-		(at 182.88 53.34)
+		(at 182.88 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09d21371-f07a-4c39-b547-1d180c1a54b8")
+		(uuid "016d7143-b103-4eae-9813-e238ce266dd3")
+	)
+	(junction
+		(at 182.88 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b04b7c6-153a-46d6-8fba-5ff6e29cf59f")
 	)
 	(junction
 		(at 123.19 85.09)
@@ -2021,6 +2210,12 @@
 		(uuid "9fea9177-30f9-4aad-9227-cf83c0fb9146")
 	)
 	(junction
+		(at 182.88 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a71b8579-d5a4-4dc6-8b14-a266480bc2d1")
+	)
+	(junction
 		(at 199.39 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2033,16 +2228,10 @@
 		(uuid "d9541c8e-c5b1-484a-9aca-c9b3a5702ce0")
 	)
 	(junction
-		(at 160.02 64.77)
+		(at 134.62 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e37e354c-47a3-43cb-83f8-5c20d3c08da5")
-	)
-	(junction
-		(at 182.88 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef60ef1c-2427-4652-9a12-10e99322dd9d")
 	)
 	(no_connect
 		(at 134.62 90.17)
@@ -2092,7 +2281,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 49.53) (xy 182.88 49.53)
+			(xy 142.24 43.18) (xy 171.45 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2132,7 +2321,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 64.77) (xy 146.05 64.77)
+			(xy 134.62 58.42) (xy 120.65 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2142,17 +2331,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 49.53) (xy 182.88 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25c83c7d-4297-4768-a168-b2b2852d8846")
-	)
-	(wire
-		(pts
-			(xy 160.02 64.77) (xy 160.02 67.31)
+			(xy 134.62 58.42) (xy 134.62 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2212,6 +2391,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 45.72) (xy 203.2 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415f38b5-6488-4ab0-9d60-8c2cc64aef6a")
+	)
+	(wire
+		(pts
 			(xy 44.45 111.76) (xy 49.53 111.76)
 		)
 		(stroke
@@ -2242,13 +2431,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 64.77) (xy 172.72 64.77)
+			(xy 134.62 58.42) (xy 147.32 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4bbdae3c-1561-413b-bdc5-5640c8c60bf3")
+	)
+	(wire
+		(pts
+			(xy 214.63 50.8) (xy 214.63 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d91f3ef-bea3-4356-bab5-d6b62bd1c0dd")
 	)
 	(wire
 		(pts
@@ -2272,13 +2471,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 53.34) (xy 182.88 53.34)
+			(xy 147.32 46.99) (xy 166.37 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "54574932-187d-4958-baa0-f585ba95358e")
+	)
+	(wire
+		(pts
+			(xy 182.88 63.5) (xy 182.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57088e7a-66a2-413d-bf86-dca6107701d8")
 	)
 	(wire
 		(pts
@@ -2302,7 +2511,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 60.96) (xy 172.72 64.77)
+			(xy 147.32 54.61) (xy 147.32 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2319,16 +2528,6 @@
 			(type default)
 		)
 		(uuid "76f08a20-2ab1-454c-8b83-f9fec1b39bba")
-	)
-	(wire
-		(pts
-			(xy 182.88 53.34) (xy 182.88 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d71657d-570b-4a6c-809b-336a6b33eaf4")
 	)
 	(wire
 		(pts
@@ -2412,6 +2611,26 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 45.72) (xy 214.63 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6b3747-7003-4696-84d7-3a48ab49f4db")
+	)
+	(wire
+		(pts
+			(xy 182.88 45.72) (xy 190.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee7edac-640e-4d40-9e1b-47c664e893fd")
+	)
+	(wire
+		(pts
 			(xy 180.34 90.17) (xy 190.5 90.17)
 		)
 		(stroke
@@ -2462,7 +2681,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 39.37) (xy 182.88 40.64)
+			(xy 182.88 39.37) (xy 182.88 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2489,6 +2708,16 @@
 			(type default)
 		)
 		(uuid "c3ba6088-f302-43ae-a57a-b68d29135b41")
+	)
+	(wire
+		(pts
+			(xy 182.88 45.72) (xy 182.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8aa6007-be3e-47e7-bf7e-6cb9efd187a8")
 	)
 	(wire
 		(pts
@@ -2532,6 +2761,36 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 43.18) (xy 171.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78cc076-fd2a-4f67-91f7-eb9d671c4b6e")
+	)
+	(wire
+		(pts
+			(xy 171.45 63.5) (xy 182.88 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a762c0-5ecb-497c-9386-96c9cfaf6e1a")
+	)
+	(wire
+		(pts
+			(xy 182.88 68.58) (xy 182.88 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d49876-78db-4ce2-b421-9f8d967088d0")
+	)
+	(wire
+		(pts
 			(xy 113.03 100.33) (xy 113.03 97.79)
 		)
 		(stroke
@@ -2552,7 +2811,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 64.77) (xy 146.05 62.23)
+			(xy 120.65 58.42) (xy 120.65 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2562,7 +2821,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 49.53) (xy 146.05 49.53)
+			(xy 134.62 43.18) (xy 120.65 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2602,6 +2861,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 46.99) (xy 166.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0bb3bc-1409-45ea-a391-4d5a4f4524a6")
+	)
+	(wire
+		(pts
 			(xy 132.08 92.71) (xy 132.08 100.33)
 		)
 		(stroke
@@ -2622,7 +2891,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 48.26) (xy 182.88 49.53)
+			(xy 166.37 68.58) (xy 182.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09064c2-752e-4f93-aa8f-0bf1de69f7f2")
+	)
+	(wire
+		(pts
+			(xy 182.88 58.42) (xy 182.88 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4132,7 +4411,7 @@
 				)
 			)
 		)
-		(property "Value" "PCF8563T/5_518"
+		(property "Value" "PCF8563"
 			(at 157.48 77.47 0)
 			(effects
 				(font
@@ -4150,7 +4429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PCF8563T/5_518"
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF8563.pdf"
 			(at 134.62 85.09 0)
 			(effects
 				(font
@@ -4161,6 +4440,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "NXP"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PCF8563T/5,518"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutional Values" ""
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "LCSC"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C7440"
 			(at 134.62 85.09 0)
 			(effects
 				(font
@@ -4352,7 +4676,7 @@
 				)
 			)
 		)
-		(property "Value" "LFXTAL016178REEL"
+		(property "Value" "LFXTAL016178"
 			(at 95.25 74.93 0)
 			(effects
 				(font
@@ -4399,26 +4723,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "IQD"
-			(at 81.28 -412.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LFXTAL016178REEL"
-			(at 81.28 -512.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Mouser Part Number" "449-LFXTAL016178REEL"
 			(at 81.28 -612.37 0)
 			(effects
@@ -4456,6 +4760,51 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "IQD"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LFXTAL016178"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutional Values" ""
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "Digikey"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1923-LFXTAL016178CT-ND"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4681,6 +5030,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 214.63 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ec037b7-9bab-400a-a74c-2ed4bc22c5e4")
+		(property "Reference" "#PWR06"
+			(at 214.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c18bce64-b8e2-4ba9-ad6b-1f614a625529")
+		)
+		(instances
+			(project "rtc"
+				(path "/818bb878-dad3-4efb-a0ef-59b01bf8b5c9"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 81.28 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4747,7 +5162,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 163.83 49.53 90)
+		(at 138.43 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4756,7 +5171,7 @@
 		(fields_autoplaced yes)
 		(uuid "32b942ff-85a7-4e09-a94d-e4b2b2b034f4")
 		(property "Reference" "R1"
-			(at 163.83 43.18 90)
+			(at 138.43 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,15 +5179,15 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 163.83 45.72 90)
+			(at 138.43 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 163.83 51.308 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 138.43 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,8 +5195,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 163.83 49.53 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7468442.pdf"
+			(at 138.43 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,7 +5205,52 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 49.53 0)
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "FOJAN"
+			(at 138.43 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FRQ0603F2002TS"
+			(at 138.43 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutional Values" ""
+			(at 138.43 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "LCSC"
+			(at 138.43 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C7468442"
+			(at 138.43 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,7 +5341,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 172.72 57.15 0)
+		(at 147.32 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4890,7 +5350,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e5eb508-9fab-4861-ac20-a5cd622cc207")
 		(property "Reference" "C2"
-			(at 176.53 55.8799 0)
+			(at 151.13 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4899,7 +5359,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 176.53 58.4199 0)
+			(at 151.13 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,8 +5367,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 173.6852 60.96 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 148.2852 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,8 +5376,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 172.72 57.15 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C6119867.pdf"
+			(at 147.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +5386,52 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 172.72 57.15 0)
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "HRE"
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CGA0603X7R104K500JT"
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutional Values" ""
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "LCSC"
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C6119867"
+			(at 147.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,6 +5449,127 @@
 			(project ""
 				(path "/818bb878-dad3-4efb-a0ef-59b01bf8b5c9"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 207.01 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ea60f04-237c-4b05-9392-e65d6b19718e")
+		(property "Reference" "D1"
+			(at 208.5975 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XL-1608SURC-06"
+			(at 208.5975 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 207.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965799.pdf"
+			(at 207.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 207.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 207.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "XINGLIGHT"
+			(at 207.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "XL-1608SURC-06"
+			(at 207.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutional Values" ""
+			(at 207.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "LCSC"
+			(at 207.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C965799"
+			(at 207.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88d2146c-6650-47bf-89b1-7bfddbe3dabf")
+		)
+		(pin "1"
+			(uuid "594cd87e-2d98-45b7-b32c-dc3ef43e8500")
+		)
+		(instances
+			(project ""
+				(path "/818bb878-dad3-4efb-a0ef-59b01bf8b5c9"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5109,7 +5735,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 192.278 77.47 90)
 			(effects
 				(font
@@ -5118,7 +5744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2933178.pdf"
 			(at 190.5 77.47 0)
 			(effects
 				(font
@@ -5128,6 +5754,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "FOJAN"
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FRC0603F2551TS"
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutional Values" "2.55k"
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "LCSC"
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C2933178"
 			(at 190.5 77.47 0)
 			(effects
 				(font
@@ -5223,7 +5894,7 @@
 		(at 55.88 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6b776c1c-2f7a-44d0-8219-5905759d9e76")
@@ -5270,6 +5941,15 @@
 				(hide yes)
 			)
 		)
+		(property "Substitutional Values" ""
+			(at 55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e15f3684-ecf1-4b37-8c89-8a4b846e2619")
 		)
@@ -5299,7 +5979,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_Schottky_AKL:D_Schottky_Generic")
-		(at 182.88 44.45 270)
+		(at 182.88 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5308,7 +5988,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d6a414d-377e-406c-a48d-491e54a21169")
 		(property "Reference" "D2"
-			(at 185.42 43.4974 90)
+			(at 185.42 53.6574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,8 +5996,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RB751V-40X_R1"
-			(at 185.42 46.0374 90)
+		(property "Value" "RB751V-40X_R1_00001"
+			(at 185.42 56.1974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,7 +6006,7 @@
 			)
 		)
 		(property "Footprint" "pcb_footprints:SODFL2512X90N"
-			(at 182.88 44.45 0)
+			(at 182.88 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,8 +6014,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 182.88 44.45 0)
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/RB751V-40X.pdf"
+			(at 182.88 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,7 +6024,52 @@
 			)
 		)
 		(property "Description" "Schottky diode, Generic Symbol, Alternate KiCAD Library"
-			(at 182.88 44.45 0)
+			(at 182.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "Panjit International Inc."
+			(at 182.88 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RB751V-40X_R1_00001"
+			(at 182.88 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutional Values" ""
+			(at 182.88 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "Digikey"
+			(at 182.88 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "3757-RB751V-40X_R1_00001CT-ND"
+			(at 182.88 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +6094,7 @@
 	)
 	(symbol
 		(lib_id "CE5R5505HF-ZJ:CE5R5505HF-ZJ")
-		(at 146.05 49.53 270)
+		(at 120.65 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5378,7 +6103,7 @@
 		(fields_autoplaced yes)
 		(uuid "87ebf427-a2e1-403f-83cc-7cf29b0a2086")
 		(property "Reference" "SUPERCAP1"
-			(at 149.86 54.6099 90)
+			(at 124.46 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,7 +6112,7 @@
 			)
 		)
 		(property "Value" "5"
-			(at 149.86 57.1499 90)
+			(at 124.46 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,7 +6121,7 @@
 			)
 		)
 		(property "Footprint" "pcb_footprints:CE5R5505HFZJ"
-			(at 49.86 58.42 0)
+			(at 24.46 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5406,7 +6131,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Shenzhen%20Kaifengda%20Tech%20Co/CE%20Series.pdf"
-			(at -50.14 58.42 0)
+			(at -75.54 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5416,7 +6141,7 @@
 			)
 		)
 		(property "Description" "5 F (EDLC) Supercapacitor 5.5 V Axial, Can - Horizontal 15Ohm @ 1kHz 1000 Hrs @ 70C"
-			(at 146.05 49.53 0)
+			(at 120.65 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,27 +6150,7 @@
 			)
 		)
 		(property "Height" "7.5"
-			(at -250.14 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "CDA"
-			(at -350.14 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CE5R5505HF-ZJ"
-			(at -450.14 58.42 0)
+			(at -275.54 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5455,7 +6160,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at -550.14 58.42 0)
+			(at -575.54 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +6170,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at -650.14 58.42 0)
+			(at -675.54 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,7 +6180,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -750.14 58.42 0)
+			(at -775.54 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,12 +6190,57 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -850.14 58.42 0)
+			(at -875.54 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "CDA"
+			(at 120.65 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CE5R5505HF-ZJ"
+			(at 120.65 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutional Values" ""
+			(at 120.65 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "Digikey"
+			(at 120.65 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "4688-CE5R5505HF-ZJ-ND"
+			(at 120.65 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5528,7 +6278,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "SM04B-SRSS-TB"
 			(at 57.15 111.7599 0)
 			(effects
 				(font
@@ -5546,7 +6296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -5556,6 +6306,51 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 54.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "XYECONN"
+			(at 54.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "XY-SM04B-SRSS-TB"
+			(at 54.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutional Values" ""
+			(at 54.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "LCSC"
+			(at 54.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C51940130"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -5587,7 +6382,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 67.31 0)
+		(at 134.62 60.96 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5596,7 +6391,7 @@
 		(dnp no)
 		(uuid "96108e3a-6ff2-4342-b9f4-2e8c61e16bc6")
 		(property "Reference" "#PWR04"
-			(at 160.02 73.66 0)
+			(at 134.62 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,7 +6400,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 72.39 0)
+			(at 134.62 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +6408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 67.31 0)
+			(at 134.62 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +6417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 67.31 0)
+			(at 134.62 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +6426,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 67.31 0)
+			(at 134.62 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,7 +6541,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 201.168 77.47 90)
 			(effects
 				(font
@@ -5755,7 +6550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2933178.pdf"
 			(at 199.39 77.47 0)
 			(effects
 				(font
@@ -5765,6 +6560,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "FOJAN"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FRC0603F2551TS"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutional Values" "2.55k"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "LCSC"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C2933178"
 			(at 199.39 77.47 0)
 			(effects
 				(font
@@ -5789,6 +6629,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 194.31 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdae7660-bbac-49b5-a4e4-0f557d6641d3")
+		(property "Reference" "R4"
+			(at 194.31 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.5k"
+			(at 194.31 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 194.31 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2933178.pdf"
+			(at 194.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 194.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "FOJAN"
+			(at 194.31 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FRC0603F2551TS"
+			(at 194.31 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutional Values" "2.55k"
+			(at 194.31 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "LCSC"
+			(at 194.31 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C2933178"
+			(at 194.31 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22d3e7f9-e26c-484e-9b8d-c9c6ab3e640e")
+		)
+		(pin "2"
+			(uuid "24878926-e497-4307-a87d-fa5a48a9cc2d")
+		)
+		(instances
+			(project "rtc"
+				(path "/818bb878-dad3-4efb-a0ef-59b01bf8b5c9"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 54.61 123.19 0)
 		(unit 1)
@@ -5807,7 +6760,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "SM04B-SRSS-TB"
 			(at 57.15 125.7299 0)
 			(effects
 				(font
@@ -5825,7 +6778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 54.61 123.19 0)
 			(effects
 				(font
@@ -5835,6 +6788,51 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 54.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "XYECONN"
+			(at 54.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "XY-SM04B-SRSS-TB"
+			(at 54.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutional Values" ""
+			(at 54.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "LCSC"
+			(at 54.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C51940130"
 			(at 54.61 123.19 0)
 			(effects
 				(font
@@ -5871,7 +6869,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d794bddb-871e-43df-8ce7-7b7a5407c0fe")
 		(property "Reference" "C3"
@@ -5883,7 +6881,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24p"
+		(property "Value" "10p"
 			(at 116.84 95.2499 0)
 			(effects
 				(font
@@ -5892,7 +6890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 113.9952 97.79 0)
 			(effects
 				(font
@@ -5901,7 +6899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C45359928.pdf"
 			(at 113.03 93.98 0)
 			(effects
 				(font
@@ -5911,6 +6909,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "HRE"
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CGA0603C0G100J500JT"
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutional Values" ""
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "LCSC"
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C45359928"
 			(at 113.03 93.98 0)
 			(effects
 				(font
@@ -6020,7 +7063,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24p"
+		(property "Value" "10p"
 			(at 127 95.2499 0)
 			(effects
 				(font
@@ -6029,7 +7072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 124.1552 97.79 0)
 			(effects
 				(font
@@ -6038,7 +7081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C45359928.pdf"
 			(at 123.19 93.98 0)
 			(effects
 				(font
@@ -6048,6 +7091,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "HRE"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CGA0603C0G100J500JT"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutional Values" ""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "LCSC"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C45359928"
 			(at 123.19 93.98 0)
 			(effects
 				(font
@@ -6090,7 +7178,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "SM04B-SRSS-TB"
 			(at 57.15 97.7899 0)
 			(effects
 				(font
@@ -6108,7 +7196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 54.61 95.25 0)
 			(effects
 				(font
@@ -6118,6 +7206,51 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "XYECONN"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "XY-SM04B-SRSS-TB"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutional Values" ""
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Name" "LCSC"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "C51940130"
 			(at 54.61 95.25 0)
 			(effects
 				(font
