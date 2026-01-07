@@ -4536,7 +4536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RJ12_Pin_Connector:Rotary_Switch_16_pos"
+		(property "Footprint" "pcb_footprints:Rotary_Switch_16_pos"
 			(at 17.78 140.97 0)
 			(effects
 				(font

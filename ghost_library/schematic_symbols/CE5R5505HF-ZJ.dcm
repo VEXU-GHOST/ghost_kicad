@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CE5R5505HF-ZJ
+D 5 F (EDLC) Supercapacitor 5.5 V Axial, Can - Horizontal 15Ohm @ 1kHz 1000 Hrs @ 70C
+K
+F https://media.digikey.com/pdf/Data%20Sheets/Shenzhen%20Kaifengda%20Tech%20Co/CE%20Series.pdf
+$ENDCMP
+#
+#End Doc Library
