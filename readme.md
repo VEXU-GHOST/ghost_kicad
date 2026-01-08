@@ -1,6 +1,5 @@
----
-title: "VEXU GHOST PCB Repository"
----
+# VEXU GHOST PCB Repository
+
 
 Welcome to UT IEEE RAS VEXU GHOST's repository for our PCB developments!
 
