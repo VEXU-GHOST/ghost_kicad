@@ -1705,13 +1705,13 @@
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -1932,13 +1932,13 @@
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -2615,7 +2615,7 @@
 			(uuid "b24afff5-13bb-4f71-a980-c742f6e5cdb5")
 		)
 		(embedded_fonts no)
-		(model "ISL29125IROZ-T7.stp"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/ISL29125IROZ-T7.stp"
 			(offset
 				(xyz 0 0 0)
 			)

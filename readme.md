@@ -1,0 +1,42 @@
+# VEXU GHOST PCB Repository
+
+
+Welcome to UT IEEE RAS VEXU GHOST's repository for our PCB developments!
+
+# Host Board
+![Layout](docs/host_layout.png)
+![3D Model Isometric View](docs/host_model_iso.png)
+![3D Model Front View](docs/host_model_front.png)
+![3D Model Back View](docs/host_model_back.png)
+
+# Base Development Board
+![Layout](docs/base_layout.png)
+![3D Model Isometric View](docs/base_model_iso.png)
+![3D Model Front View](docs/base_model_front.png)
+![3D Model Back View](docs/base_model_back.png)
+
+# Color Sensor Breakout Board
+![Layout](docs/color_layout.png)
+![3D Model Isometric View](docs/color_model_iso.png)
+![3D Model Front View](docs/color_model_front.png)
+![3D Model Back View](docs/color_model_back.png)
+
+# IMU Breakout Board
+![Layout](docs/imu_layout.png)
+![3D Model Isometric View](docs/imu_model_iso.png)
+![3D Model Front View](docs/imu_model_front.png)
+![3D Model Back View](docs/imu_model_back.png)
+
+# Proximity Distance Sensor Breakout Board
+![Layout](docs/proximity_layout.png)
+![3D Model Isometric View](docs/proximity_model_iso.png)
+![3D Model Front View](docs/proximity_model_front.png)
+![3D Model Back View](docs/proximity_model_back.png)
+
+# Offline Real-Time Clock Board
+![Physical Board Front View](docs/rtc_front.jpg)
+![Physical Board Back View](docs/rtc_back.jpg)
+![Layout](docs/rtc_layout.png)
+![3D Model Isometric View](docs/rtc_model_iso.png)
+![3D Model Front View](docs/rtc_model_front.png)
+![3D Model Back View](docs/rtc_model_back.png)

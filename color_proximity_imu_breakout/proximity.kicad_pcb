@@ -1454,13 +1454,13 @@
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -1929,7 +1929,7 @@
 			(uuid "535bed1b-4868-4b9b-b6e6-49d77d1e5bf1")
 		)
 		(embedded_fonts no)
-		(model "VL53L4CDV0DH_1.stp"
+		(model "C:/Users/haici/ghost_kicad/ghost_library/3d_models/VL53L4CDV0DH_1.stp"
 			(offset
 				(xyz -0.6999999776 0 0.03999999851)
 			)
@@ -2158,13 +2158,13 @@
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -180 -0)
 			)
 		)
 	)
