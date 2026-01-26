@@ -5,7 +5,7 @@ Welcome to VEXU GHOST PCB team onboarding! This will give a brief introduction o
 Follow these steps for the onboarding:
 1. Clone this repo
 
-2. Create a new branch with the name "Firstname_Lastname_Onboarding" (git branch Firstname_Lastname_Onboarding)
+2. Create a new branch with the name "Firstname_Lastname_Onboarding" (git branch Firstname_Lastname_Onboarding -> git checkout Firstname_Lastname_Onboarding)
 
 3. Open up the onboarding KiCAD project in the "onboarding" folder
 
@@ -30,4 +30,4 @@ Follow these steps for the onboarding:
 
 12. Check your PCB layout by running DRC (Inspect > Rule Checker), see if there is any errors on pads being not connected or traces and pads being too close to the edge cuts
 
-13. Save your KiCAD files, commit those file changes onto git, and push them to your branches for us to review
+13. Save your KiCAD files, commit those file changes onto git, and push them to your branches for us to review (git add . -> git commit -m "finish onboarding" -> git push origin Firstname_Lastname_Onboarding)

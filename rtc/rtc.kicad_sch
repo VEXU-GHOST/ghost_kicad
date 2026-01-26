@@ -5471,7 +5471,7 @@
 				)
 			)
 		)
-		(property "Value" "XL-1608SURC-06"
+		(property "Value" "LED"
 			(at 208.5975 40.64 0)
 			(effects
 				(font

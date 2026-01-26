@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ISL29125IROZ-T7")(type "KiCad")(uri "${KIPRJMOD}/../ghost_library/schematic_symbols/ISL29125IROZ-T7.kicad_sym")(options "")(descr ""))
+)
