@@ -51,7 +51,7 @@ Follow these steps for the onboarding:
 11. Once you placed all of your components, start placing traces and connecting nets indicated by the light blue lines by hovering over a pin or a pad and press x and click on the other highlighted pin or pad
 - start with signal nets first and then do power nets, and don't connect GND nets and leave them for next step
 - generally you should use larger trace widths for nets connected to the power nets, such as 0.3 mm or 0.5 mm, and other traces for signals can use the default width or 0.2mm, you can set the trace widths by clicking the track dropdown on the top left corner > edit pre-defined sizes > + sign at the bottom of the tracks column, and you can enter the value for the trace width  
-![Onboarding PCB](pcb_trace_1.png)
+![Onboarding PCB](pcb_trace_1.png)  
 ![Onboarding PCB](pcb_trace_2.png)  
 ![Onboarding PCB](pcb_trace_3.png)  
 
