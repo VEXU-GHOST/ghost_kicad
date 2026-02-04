@@ -13,9 +13,9 @@ Follow these steps for the onboarding:
 3. Type the following command in git bash to clone the repo
 - right click > paste to paste in bash
 - make sure to remove any characters not part of the https or ssh link
-''''
+'''bash
     git clone [paste the https/ssh link]
-''''
+'''
 
 4. Open up the repo's directory and create a new remote branch with the name "Firstname_Lastname_Onboarding"
     '''
