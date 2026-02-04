@@ -4669,15 +4669,15 @@
 		(fields_autoplaced yes)
 		(uuid "1f28dfaf-2cf5-4480-8c88-fba97d10846a")
 		(property "Reference" "Y1"
-			(at 95.25 72.39 0)
+			(at 98.425 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LFXTAL016178"
-			(at 95.25 74.93 0)
+		(property "Value" "32.768K12.5PI/MC306"
+			(at 98.425 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
