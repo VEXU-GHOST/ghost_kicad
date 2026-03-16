@@ -23,6 +23,9 @@ fp-info-cache
 *-backups/
 backups/
 
+/a
+/docs/pcb_images_compressed/
+
 # Netlist files (exported from Eeschema)
 *.net
 
