@@ -359,6 +359,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9f4bb83-e1c2-40d2-bead-f39ead2ceceb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A106KP8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c43a229-15b0-4769-90a8-7cf1967811e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4a8cbb6a-d9b7-43f9-97db-39a2a182ace7")
 		(sheetname "/")
@@ -1435,6 +1461,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "XINGLIGHT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "439b2310-245a-45e1-b583-340d16ba3e15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XL-2012UWC-A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9013949e-d148-4bb2-a782-63cc9a54feab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/534a85a3-2153-4919-b59f-8b71719aace3")
 		(sheetname "/")
@@ -2166,6 +2218,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "G-Switch"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "040d5fb7-f99c-48ca-85da-e60076482a3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GT-B0502MSV27-10S1101"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b905cc49-64d0-4dff-a000-30a2d49340df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1b7f42a9-b923-4d8a-861a-72d0cfbeff5c")
 		(sheetname "/")
@@ -2500,6 +2578,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 310)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1aeb5eb7-2bf5-4e9d-a9ac-68549e0ff930")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B105KB8NQNC"
+			(at 0 0 310)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a0a2cfa-4b83-44ce-a09e-e715d9a686e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/105d7872-0aeb-4c27-a727-32bdde8fedeb")
 		(sheetname "/")
@@ -2710,6 +2814,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ee97740-5046-4ddd-803c-eb97182ec78c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A106KP8NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc8b6eaa-cf80-4a36-a139-705dcf7d0e8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7c327563-667b-4373-8815-756e2fd659b0")
 		(sheetname "/")
@@ -2849,6 +2979,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "790ddcc9-0a4c-438a-aad5-12854d4ccffd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "G-Switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93891ec8-f1d4-488a-a026-14fa522af7a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GT-B0502MSV27-10S1101"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63c58c1b-c290-47aa-87a4-2670caa2e559")
 			(effects
 				(font
 					(size 1 1)
@@ -3189,6 +3345,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5dcca65c-2b07-4b45-833f-b9247a4f13e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB54PNC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c97aaf3a-61ed-4feb-877a-815e70b3bcca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3a23ab46-4ce6-4fab-b89b-96c6161ae89f")
 		(sheetname "/")
@@ -3392,6 +3574,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "11c8c354-77fa-491c-872a-537e104537ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "XINGLIGHT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b7a02b3-2650-4178-a1f7-76548f3a0a35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XL-2012UWC-A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bbf0b1e-b12a-475c-b5d5-94280bdf811f")
 			(effects
 				(font
 					(size 1 1)

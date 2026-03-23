@@ -520,7 +520,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "pcbway_production\\2026-03-23-01-33-33\\imu.kicad_pcb_bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -572,6 +572,18 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
@@ -594,18 +606,6 @@
           "label": "Height",
           "name": "Height",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": true
         },
         {
           "group_by": false,
@@ -641,19 +641,19 @@
           "group_by": false,
           "label": "Supplier Name",
           "name": "Supplier Name",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Supplier Part Number",
           "name": "Supplier Part Number",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Variant",
           "name": "Variant",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

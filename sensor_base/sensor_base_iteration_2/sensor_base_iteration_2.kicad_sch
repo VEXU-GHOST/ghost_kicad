@@ -7833,6 +7833,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 29.21 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B105KB8NQNC"
+			(at 29.21 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b0eb2a4-39cb-4b8b-a391-62fd6a5e248b")
 		)
@@ -7903,7 +7921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SM06B-SRSS-TB(LF)(SN)"
+		(property "Manufacturer_Part_Number" "XY-SM06B-GHS-TB"
 			(at 257.81 102.87 0)
 			(effects
 				(font
@@ -7949,6 +7967,15 @@
 			)
 		)
 		(property "JLCPCB Part" "C160405"
+			(at 257.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "XYECONN"
 			(at 257.81 102.87 0)
 			(effects
 				(font
@@ -8160,6 +8187,24 @@
 			)
 		)
 		(property "Description" "Cap free NMOS 150mA Low Drop 3.3V Regulator, SOT-23-5"
+			(at 46.99 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 46.99 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS73133DBVR"
 			(at 46.99 172.72 0)
 			(effects
 				(font
@@ -8750,6 +8795,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B105KB8NQNC"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "23892893-d499-4cba-b8fb-20b7732c8b69")
 		)
@@ -9035,7 +9098,7 @@
 		(at 138.43 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10495,6 +10558,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 71.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B103KB5NNNC"
+			(at 71.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "948510de-e1da-48ed-b391-23cdbd8f1cc1")
 		)
@@ -11418,7 +11499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "XY-SM04B-SRSS-TB"
+		(property "Manufacturer_Part_Number" "XY-SM04B-GHS-TB"
 			(at 142.24 133.35 0)
 			(effects
 				(font
@@ -11465,6 +11546,15 @@
 		)
 		(property "JLCPCB Part" "C51940130"
 			(at 142.24 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "XYECONN"
+			(at 142.24 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11631,7 +11721,7 @@
 		(at 160.02 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11796,6 +11886,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 19.05 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A106KP8NNNC"
+			(at 19.05 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9d19a9e4-164c-43f4-bd54-b4172199ddb4")
 		)
@@ -11931,7 +12039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SM06B-SRSS-TB(LF)(SN)"
+		(property "Manufacturer_Part_Number" "XY-SM06B-GHS-TB"
 			(at 257.81 134.62 90)
 			(effects
 				(font
@@ -11977,6 +12085,15 @@
 			)
 		)
 		(property "JLCPCB Part" "C160405"
+			(at 257.81 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "XYECONN"
 			(at 257.81 134.62 90)
 			(effects
 				(font
@@ -12765,7 +12882,7 @@
 		(at 201.93 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13038,7 +13155,7 @@
 		(at 184.15 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)

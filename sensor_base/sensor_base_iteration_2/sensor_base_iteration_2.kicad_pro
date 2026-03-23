@@ -519,7 +519,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "pcbway_production\\2026-03-22-23-54-23\\sensor_base_iteration_2.kicad_pcb_bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -640,13 +640,13 @@
           "group_by": false,
           "label": "Supplier Name",
           "name": "Supplier Name",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Supplier Part Number",
           "name": "Supplier Part Number",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,

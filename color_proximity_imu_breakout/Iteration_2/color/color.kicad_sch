@@ -2049,6 +2049,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B105KB8NQNC"
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a81f58ac-8c37-460f-851e-de0825047e06")
 		)
@@ -2178,6 +2196,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "G-Switch"
+			(at 69.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GT-B0502MSV27-10S1101"
 			(at 69.85 128.27 0)
 			(effects
 				(font
@@ -2458,6 +2494,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KB54PNC"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "92307f0d-f0d4-46a2-8d7b-ba4e31509c43")
 		)
@@ -2520,6 +2574,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "G-Switch"
+			(at 69.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GT-B0502MSV27-10S1101"
 			(at 69.85 100.33 0)
 			(effects
 				(font
@@ -2667,6 +2739,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A106KP8NNNC"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc2270e4-7485-450c-842e-68dee3921505")
 		)
@@ -2774,6 +2864,24 @@
 			)
 		)
 		(property "JLCPCB Part" "C34499"
+			(at 119.38 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "XINGLIGHT"
+			(at 119.38 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XL-2012UWC-A"
 			(at 119.38 54.61 90)
 			(effects
 				(font
@@ -3294,6 +3402,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A106KP8NNNC"
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "91fd4555-d063-4f9c-9b79-eab3b5c2c101")
 		)
@@ -3574,6 +3700,24 @@
 			)
 		)
 		(property "JLCPCB Part" "C34499"
+			(at 109.22 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "XINGLIGHT"
+			(at 109.22 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XL-2012UWC-A"
 			(at 109.22 54.61 90)
 			(effects
 				(font
