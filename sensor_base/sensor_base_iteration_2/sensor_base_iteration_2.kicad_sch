@@ -12811,7 +12811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "NXP"
+		(property "Manufacturer_Name" "NXP Semiconductors"
 			(at 173.99 102.87 0)
 			(effects
 				(font

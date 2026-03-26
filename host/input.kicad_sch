@@ -1216,12 +1216,6 @@
 		(uuid "0d79b09b-7308-47fc-b7d4-4e878ebd9f3c")
 	)
 	(junction
-		(at 227.33 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12d06b36-e741-46a3-83f9-a1ad24355110")
-	)
-	(junction
 		(at 181.61 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1264,18 +1258,6 @@
 		(uuid "4fdbf038-e893-4f44-95a9-286fa227b942")
 	)
 	(junction
-		(at 227.33 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59ca7683-5aa0-476f-af69-f7dee8299b78")
-	)
-	(junction
-		(at 227.33 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d8e8395-5c1a-44c1-8488-b3a30fa928c3")
-	)
-	(junction
 		(at 171.45 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1300,18 +1282,6 @@
 		(uuid "7b7c1a03-ca36-464e-83c9-00fd0ed73147")
 	)
 	(junction
-		(at 227.33 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dc84e17-4da7-4ed9-aa68-4be1f64a4e69")
-	)
-	(junction
-		(at 227.33 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ead654e-a3db-4487-aa38-e22e38ca9b5d")
-	)
-	(junction
 		(at 171.45 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1334,12 +1304,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0f9b5ff-ee5e-479f-aaad-f61d51c8fb22")
-	)
-	(junction
-		(at 227.33 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d201bd8e-9217-4520-8562-8acab9562c0f")
 	)
 	(junction
 		(at 121.92 73.66)
@@ -1416,16 +1380,6 @@
 			(type default)
 		)
 		(uuid "1b95a946-5529-4a3a-bc18-6bf9b5a13329")
-	)
-	(wire
-		(pts
-			(xy 227.33 100.33) (xy 243.84 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20f3ec9c-abc5-439b-ad4f-bc303c5d30cc")
 	)
 	(wire
 		(pts
@@ -1629,16 +1583,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 90.17) (xy 243.84 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62464073-c5c2-4808-ad9f-936ee957ff28")
-	)
-	(wire
-		(pts
 			(xy 158.75 87.63) (xy 163.83 87.63)
 		)
 		(stroke
@@ -1656,16 +1600,6 @@
 			(type default)
 		)
 		(uuid "6d1bcba5-9253-4186-b9ff-7a622fe8e45b")
-	)
-	(wire
-		(pts
-			(xy 227.33 97.79) (xy 243.84 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "722c461e-0889-462e-8f9b-d3031aada9bc")
 	)
 	(wire
 		(pts
@@ -1786,16 +1720,6 @@
 			(type default)
 		)
 		(uuid "894d69af-c4f7-4ba6-91dd-3e2aa6500549")
-	)
-	(wire
-		(pts
-			(xy 227.33 95.25) (xy 243.84 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "936b0d56-16a8-47d2-b8f4-f2ee81d6ece6")
 	)
 	(wire
 		(pts
@@ -2009,16 +1933,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 92.71) (xy 243.84 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8cb7ca4-9968-4f02-bf95-fffecbf85d3d")
-	)
-	(wire
-		(pts
 			(xy 171.45 93.98) (xy 171.45 95.25)
 		)
 		(stroke
@@ -2036,16 +1950,6 @@
 			(type default)
 		)
 		(uuid "ea60f853-99af-455b-a152-977b0b054152")
-	)
-	(wire
-		(pts
-			(xy 227.33 87.63) (xy 243.84 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee269c46-5985-45a1-870f-41450ec1772a")
 	)
 	(wire
 		(pts
@@ -2224,7 +2128,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "000133b5-fa0a-4bb2-ac1b-470b99b4c8b8")
 		(property "Reference" "SCL5"
@@ -2244,7 +2148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 116.84 102.87 0)
 			(effects
 				(font
@@ -2908,7 +2812,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "41d1da45-46ce-4b16-947d-f3555cda9117")
 		(property "Reference" "DSCL-5"
@@ -2930,7 +2834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 193.04 109.22 0)
 			(effects
 				(font
@@ -3044,6 +2948,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B105KB8NQNC"
 			(at 76.2 48.26 0)
 			(effects
 				(font
@@ -3245,6 +3167,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 67.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B105KB8NQNC"
+			(at 67.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b1b0561-21fe-4415-9cb9-2b074cd1d8e2")
 		)
@@ -3343,7 +3283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "BM06B-SRSS-TB(LF)(SN)"
+		(property "Manufacturer Part Number" "XY-SM06B-GHS-TB"
 			(at 232.41 92.71 0)
 			(effects
 				(font
@@ -3370,7 +3310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "JST"
+		(property "Manufacturer" "XYECONN"
 			(at 232.41 92.71 0)
 			(effects
 				(font
@@ -3720,7 +3660,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uf"
+		(property "Value" "10u"
 			(at 90.17 49.53 0)
 			(effects
 				(font
@@ -3748,6 +3688,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 86.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 86.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
 			(at 86.36 48.26 0)
 			(effects
 				(font
@@ -3854,7 +3812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "BM04B-SRSS-TB(LF)(SN)"
+		(property "Manufacturer Part Number" "BM04B-GHS-TBT(LF)(SN)"
 			(at 87.63 95.25 0)
 			(effects
 				(font
@@ -3946,7 +3904,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "961349ad-bfd2-477f-a680-2c8cb69b7205")
 		(property "Reference" "DSCL+5"
@@ -3968,7 +3926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 182.88 95.25 0)
 			(effects
 				(font
@@ -4492,152 +4450,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 248.92 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b01672d7-6928-4c8b-80d9-a1415d41bfbd")
-		(property "Reference" "J24"
-			(at 251.46 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06"
-			(at 251.46 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical"
-			(at 248.92 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.92 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 248.92 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "BM06B-SRSS-TB(LF)(SN)"
-			(at 248.92 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Name" "LCSC "
-			(at 248.92 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "C160392"
-			(at 248.92 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 248.92 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b5dfd1a3-3200-4183-a102-62fbd11db260")
-		)
-		(pin "5"
-			(uuid "772813de-c7d4-4408-8402-2d89c98f713e")
-		)
-		(pin "6"
-			(uuid "d3ce221e-c2a2-43eb-b729-136a97873fdd")
-		)
-		(pin "2"
-			(uuid "76a6a460-55cb-48bb-abeb-772719995cf4")
-		)
-		(pin "3"
-			(uuid "0d0995d6-bfeb-4fb4-93d3-ab597ddeb677")
-		)
-		(pin "1"
-			(uuid "bc1d4e76-0a4f-4a0a-a9ab-23b3ce278fd4")
-		)
-		(instances
-			(project "ghost_host"
-				(path "/d931a957-36f8-4ac4-bfa7-9b0a51712375/23402c7e-3fda-4810-aa85-009fbca86ab3"
-					(reference "J19")
-					(unit 1)
-				)
-				(path "/d931a957-36f8-4ac4-bfa7-9b0a51712375/27f30978-c5d0-4341-8179-076bd531d8d2"
-					(reference "J7")
-					(unit 1)
-				)
-				(path "/d931a957-36f8-4ac4-bfa7-9b0a51712375/3a607616-171d-4e74-b0d4-b117e247401e"
-					(reference "J10")
-					(unit 1)
-				)
-				(path "/d931a957-36f8-4ac4-bfa7-9b0a51712375/4ade7035-83cf-47ad-aae3-9ee9aee5ff00"
-					(reference "J16")
-					(unit 1)
-				)
-				(path "/d931a957-36f8-4ac4-bfa7-9b0a51712375/691008e5-4e7e-48ec-a6d2-c51d5cbacef5"
-					(reference "J24")
-					(unit 1)
-				)
-				(path "/d931a957-36f8-4ac4-bfa7-9b0a51712375/a647489d-e8df-41ec-aa52-eeaa8bbde904"
-					(reference "J22")
-					(unit 1)
-				)
-				(path "/d931a957-36f8-4ac4-bfa7-9b0a51712375/b766b748-0aae-4359-8471-fa82a8239969"
-					(reference "J25")
-					(unit 1)
-				)
-				(path "/d931a957-36f8-4ac4-bfa7-9b0a51712375/d8739181-a03e-4193-a888-bed7be2a6252"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 227.33 100.33 0)
 		(unit 1)
@@ -4738,7 +4550,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ce01741e-e07d-48d2-af2d-9880d8cdf7b3")
 		(property "Reference" "SDA5"
@@ -4758,7 +4570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 116.84 110.49 0)
 			(effects
 				(font
@@ -4966,7 +4778,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e0685183-9744-4b22-84cf-ae799a1d4dc8")
 		(property "Reference" "DSDA-5"
@@ -4988,7 +4800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 201.93 83.82 0)
 			(effects
 				(font
@@ -5062,7 +4874,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e477373e-358b-4e88-9f14-ec2055891c1a")
 		(property "Reference" "DSDA+5"
@@ -5082,7 +4894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 161.29 67.31 0)
 			(effects
 				(font
@@ -5231,7 +5043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " NXP Semiconductors "
+		(property "Manufacturer" "NXP Semiconductors "
 			(at 146.05 92.71 0)
 			(effects
 				(font

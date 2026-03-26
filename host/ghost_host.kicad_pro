@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "item_on_disabled_layer|185025000|114853217|a4c80440-6d4e-4aab-a2d9-718dacc2f3a5|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -190,6 +195,8 @@
         0.0,
         0.5,
         0.75,
+        1.0,
+        1.25,
         1.5,
         2.0,
         3.0
@@ -519,7 +526,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "bom.csv",
+    "bom_export_filename": "pcbway_production\\2026-03-26-00-55-30\\ghost_host.kicad_pcb_bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -548,18 +555,6 @@
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": true
@@ -568,6 +563,30 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
@@ -598,25 +617,13 @@
           "group_by": false,
           "label": "Supplier Name",
           "name": "Supplier Name",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Supplier Part Number",
           "name": "Supplier Part Number",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer Part Number",
-          "name": "Manufacturer Part Number",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",
