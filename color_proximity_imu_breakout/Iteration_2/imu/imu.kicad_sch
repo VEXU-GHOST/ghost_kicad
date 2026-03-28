@@ -4008,7 +4008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y"
+		(property "Footprint" "pcb_footprints:IAM20680HP"
 			(at 203.2 62.23 0)
 			(effects
 				(font
