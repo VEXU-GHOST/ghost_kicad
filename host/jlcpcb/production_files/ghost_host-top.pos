@@ -1,0 +1,41 @@
+### Footprint positions - created on 2026-03-29T17:29:08-0500 ###
+### Printed by KiCad version 9.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                  Package                                              PosX       PosY       Rot  Side
+D2        WS2812B              LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm               136.0500   -94.3000  180.0000  top
+D3        WS2812B              LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm               146.3500   -94.3000  180.0000  top
+J1        RGB_3_Pin_Connector  PinHeader_1x03_P2.54mm_Horizontal                184.5500   -85.3000    0.0000  top
+J2        Conn_01x04           JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical   107.8000  -101.7000    0.0000  top
+J3        Conn_01x04           JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical   133.2052   -74.4250  180.0000  top
+J5        Conn_01x04           JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical   158.6000   -74.4250  180.0000  top
+J8        Conn_01x04           JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical   184.0000   -74.4250  180.0000  top
+J11       Conn_01x04           JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical   133.2000  -101.7000    0.0000  top
+J14       Conn_01x04           JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical   107.8000   -74.4000  180.0000  top
+J17       Conn_01x04           JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical   184.0000  -101.7000    0.0000  top
+J20       Conn_01x04           JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical   158.6000  -101.7000    0.0000  top
+R1        4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      109.3000  -114.5500  180.0000  top
+R2        4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      109.2875  -112.9500  180.0000  top
+R4        4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      131.7052   -61.7750    0.0000  top
+R5        4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      131.7177   -63.3750    0.0000  top
+R6        10k                  R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      131.7052   -64.9750  180.0000  top
+R7        10k                  R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      109.3000  -111.3500    0.0000  top
+R8        4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      182.4750   -61.7750    0.0000  top
+R10       4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      182.4875   -63.3750    0.0000  top
+R12       10k                  R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      182.4750   -64.9750  180.0000  top
+R16       4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      157.1250   -61.7250    0.0000  top
+R17       4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      157.1375   -63.3250    0.0000  top
+R18       10k                  R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      157.1250   -64.9250  180.0000  top
+R29       4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      134.7000  -114.5500  180.0000  top
+R30       4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      134.6875  -112.9500  180.0000  top
+R31       10k                  R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      134.7000  -111.3500    0.0000  top
+R38       4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      106.3000   -61.7500    0.0000  top
+R39       4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      106.3125   -63.3500    0.0000  top
+R40       10k                  R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      106.3000   -64.9500  180.0000  top
+R47       4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      185.4875  -114.6500  180.0000  top
+R48       4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      185.4875  -113.0239  180.0000  top
+R49       10k                  R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      185.5000  -111.4239    0.0000  top
+R56       4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      160.1000  -114.5500  180.0000  top
+R57       4.7k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      160.0875  -112.9500  180.0000  top
+R58       10k                  R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      160.1000  -111.3500    0.0000  top
+## End

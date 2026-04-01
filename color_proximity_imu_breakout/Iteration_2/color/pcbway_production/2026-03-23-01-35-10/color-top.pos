@@ -1,0 +1,17 @@
+### Footprint positions - created on 2026-03-29T18:14:29-0500 ###
+### Printed by KiCad version 9.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val              Package                                             PosX       PosY       Rot  Side
+C1        10u              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     107.6000  -116.4000    0.0000  top
+C2        10u              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     105.4000  -113.6000   90.0000  top
+C4        1u               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     110.8456  -115.8393  -50.0000  top
+C5        0.1u             C_0402_1005Metric_Pad0.74x0.62mm_HandSolder     113.0000  -115.7000  -90.0000  top
+D1        WHITE            LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder   103.1000  -113.2000   90.0000  top
+D2        WHITE            LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder   113.5000  -112.5000   90.0000  top
+IC2       ISL29125IROZ-T7  ISL29125IROZT7                                  108.0000  -113.9000    0.0000  top
+R15       100              R_0402_1005Metric_Pad0.72x0.64mm_HandSolder     111.7500  -113.1950   90.0000  top
+R16       4.7k             R_0402_1005Metric_Pad0.72x0.64mm_HandSolder     110.5000  -113.0975  -90.0000  top
+R17       60               R_0402_1005Metric                               103.0000  -116.1100  -90.0000  top
+R18       60               R_0402_1005Metric                               114.0000  -115.7000  -90.0000  top
+## End

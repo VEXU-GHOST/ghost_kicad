@@ -299,6 +299,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "deb9f964-925a-4693-a281-a3e542e0c6cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b54533de-0889-4b9b-bf7d-293ca0e193ad")
 		(sheetname "/")
@@ -529,6 +541,18 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.125)
+				)
+			)
+		)
+		(property "LCSC" "C8369"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c311301a-2a00-42fa-8c3f-201e266b2169")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -765,6 +789,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "38d1866a-89e9-46ff-bad7-82f97e1617ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/48f4ca2b-b53a-4217-8112-4ab6a613b2f0")
 		(sheetname "/")
@@ -998,6 +1034,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C965234"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7f8c1385-c2a0-491e-8a0e-5ec0a9a62c51")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7e18d246-0e93-4b81-b6fd-2e107f1eb8ed")
 		(sheetname "/")
@@ -1228,6 +1276,18 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.125)
+				)
+			)
+		)
+		(property "LCSC" "C25893"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "94d04462-1ffd-40f7-91a5-d8d27aee11e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1557,6 +1617,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cb8834a6-13e2-4352-be84-8777f1fbce11")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/93c66e2f-9802-446c-a66b-4899095e8751")
 		(sheetname "/")
@@ -1787,6 +1859,18 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.125)
+				)
+			)
+		)
+		(property "LCSC" "C8369"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ceabf7ad-798b-4426-aaea-6404714b1a3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2023,6 +2107,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C122545"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "08769ea0-2857-4afc-9ed4-e8c45269c34f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1a774568-b632-493f-b30b-99ce50cd979a")
 		(sheetname "/")
@@ -2170,7 +2266,7 @@
 		(path "/ffea3fbd-84e4-4154-81e0-f486cbae6041")
 		(sheetname "/")
 		(sheetfile "sensor_base_iteration_2.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.16 -0.81)
 			(end 0 -0.81)
@@ -2485,7 +2581,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" "C15849"
+		(property "JLCPCB Part" "C19702"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2718,7 +2814,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" "C15849"
+		(property "JLCPCB Part" "C5199872"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2997,7 +3093,7 @@
 		(path "/e67d27c8-dc68-4d0d-b739-983df1871a7d")
 		(sheetname "/")
 		(sheetfile "sensor_base_iteration_2.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.16 -0.81)
 			(end 0 -0.81)
@@ -3351,6 +3447,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25785"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "39ba8b5c-7de4-4f0f-8a31-9812c4d9fac8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d828ec36-c697-480f-b933-5779a72507fc")
 		(sheetname "/")
@@ -3545,7 +3653,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" "C15849"
+		(property "JLCPCB Part" "C5199872"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4097,6 +4205,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C27018"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b1ce3fc5-8a6d-4177-b7cf-0f47fd6da166")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/25b8ab51-20ce-4bb1-bacd-67b30e016a77")
 		(sheetname "/")
@@ -4244,7 +4364,7 @@
 		(path "/61a13243-bbcc-4306-9291-6366ee687035")
 		(sheetname "/")
 		(sheetfile "sensor_base_iteration_2.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.16 -0.81)
 			(end 0 -0.81)
@@ -4597,6 +4717,18 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.125)
+				)
+			)
+		)
+		(property "LCSC" "C688146"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "577c206b-fddb-4975-a640-ccdc5d007619")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5107,6 +5239,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "04c27e74-b176-43bd-8893-ff6905958dcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/767a5a37-6823-4431-8950-31421380d62c")
 		(sheetname "/")
@@ -5337,6 +5481,18 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.125)
+				)
+			)
+		)
+		(property "LCSC" "C25785"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "13590b1b-ce8d-491e-84e3-12cf292b8b06")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5720,6 +5876,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C51037216"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b4102acd-d6fd-4eb4-ac0f-2d444e4b246f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/5749ed06-df97-48a5-a63f-8384a2d309d9/7a98ad21-3d6b-4b30-b619-a8f22bf175ad")
 		(sheetname "/Sensors/")
@@ -6089,6 +6257,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6215afc7-17b7-46ae-9578-0e97392de189")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7cfc882a-dbc3-4c75-b172-039c8c9ca820")
 		(sheetname "/")
@@ -6319,6 +6499,18 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.125)
+				)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d7caf4ed-2fd0-4862-b074-48a941ede614")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6555,6 +6747,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C8369"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1afc9e86-9cb9-4497-b1ac-0f3e040b39e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/08bf936d-9197-4b79-931b-f037b320e1a0")
 		(sheetname "/")
@@ -6702,7 +6906,7 @@
 		(path "/cb159908-a2d2-46ce-b9df-a359bafcdd9a")
 		(sheetname "/")
 		(sheetfile "sensor_base_iteration_2.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.16 -0.81)
 			(end 0 -0.81)
@@ -7034,6 +7238,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "79d725d5-914a-4559-ac99-71230dafdecd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5749ed06-df97-48a5-a63f-8384a2d309d9/1899bf5a-cab6-45ec-ba41-b7c339f5907d")
 		(sheetname "/Sensors/")
@@ -7228,7 +7444,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" "C1523"
+		(property "JLCPCB Part" "C15195"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7791,6 +8007,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C8369"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b1ab0654-3147-4f85-89e7-b074d3b6f7ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/de6b40df-db1c-4e89-a559-97f9c57f2d6f")
 		(sheetname "/")
@@ -7956,6 +8184,18 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.125)
+				)
+			)
+		)
+		(property "LCSC" "C515169"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dc43a178-3096-445f-8449-f125b99de7fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8374,6 +8614,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C51037216"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "20d1453d-41a1-4679-ac81-55d914eae3fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/5749ed06-df97-48a5-a63f-8384a2d309d9/cf50bc83-8fb3-448a-b417-00d023c8c8e7")
 		(sheetname "/Sensors/")
@@ -8743,6 +8995,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C27003"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "34d12faa-5b00-45ba-9bad-95a2da80a99a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dcaa4250-d971-41d4-bbdc-94540b2294a6")
 		(sheetname "/")
@@ -8985,6 +9249,18 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "cb12f96b-6185-46e4-9902-44f590330630")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -9236,6 +9512,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C50395976"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f78e366e-a735-4f35-a713-1588658cfcf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Nidec*Copal*SH*7010*")
 		(path "/06a7324c-5007-48ea-97c3-f6b14dc682ea")
 		(sheetname "/")
@@ -9485,6 +9773,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3b624715-de3d-4fb1-bc27-a8d9817d6dc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/63e1a1b7-9964-4103-9b4a-537224e70c7e")
 		(sheetname "/")
@@ -9704,7 +10004,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB Part" "C160405"
+		(property "JLCPCB Part" "C51940119"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11267,6 +11567,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C3824272"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d3f8cc5d-91c5-4587-9719-fbcafc039b68")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
 		(path "/e358820c-d43e-4f6e-815f-d475a153298f")
 		(sheetname "/")
@@ -11818,7 +12130,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB Part" "C160405"
+		(property "JLCPCB Part" "C51940119"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12385,6 +12697,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "669ef214-eef1-4a34-89b4-0c867a32dc6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a35c1f1a-39af-4468-94ab-e67fe156f0a1")
 		(sheetname "/")
@@ -12604,7 +12928,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB Part" "C51940130"
+		(property "JLCPCB Part" "C51940118"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")

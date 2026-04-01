@@ -550,7 +550,7 @@
 		(path "/3a607616-171d-4e74-b0d4-b117e247401e/ce01741e-e07d-48d2-af2d-9880d8cdf7b3")
 		(sheetname "/input3/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -1458,7 +1458,7 @@
 		(path "/23402c7e-3fda-4810-aa85-009fbca86ab3/41d1da45-46ce-4b16-947d-f3555cda9117")
 		(sheetname "/input6/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -1864,7 +1864,7 @@
 		(path "/a647489d-e8df-41ec-aa52-eeaa8bbde904/961349ad-bfd2-477f-a680-2c8cb69b7205")
 		(sheetname "/input7/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -2017,7 +2017,7 @@
 		(path "/b766b748-0aae-4359-8471-fa82a8239969/000133b5-fa0a-4bb2-ac1b-470b99b4c8b8")
 		(sheetname "/input1/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -2170,7 +2170,7 @@
 		(path "/4ade7035-83cf-47ad-aae3-9ee9aee5ff00/000133b5-fa0a-4bb2-ac1b-470b99b4c8b8")
 		(sheetname "/input5/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -3020,7 +3020,7 @@
 		(path "/a647489d-e8df-41ec-aa52-eeaa8bbde904/e0685183-9744-4b22-84cf-ae799a1d4dc8")
 		(sheetname "/input7/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -3173,7 +3173,7 @@
 		(path "/b766b748-0aae-4359-8471-fa82a8239969/ce01741e-e07d-48d2-af2d-9880d8cdf7b3")
 		(sheetname "/input1/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -3326,7 +3326,7 @@
 		(path "/4ade7035-83cf-47ad-aae3-9ee9aee5ff00/ce01741e-e07d-48d2-af2d-9880d8cdf7b3")
 		(sheetname "/input5/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -4887,7 +4887,7 @@
 		(path "/a647489d-e8df-41ec-aa52-eeaa8bbde904/e477373e-358b-4e88-9f14-ec2055891c1a")
 		(sheetname "/input7/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -5454,7 +5454,7 @@
 		(path "/3a607616-171d-4e74-b0d4-b117e247401e/000133b5-fa0a-4bb2-ac1b-470b99b4c8b8")
 		(sheetname "/input3/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -5607,7 +5607,7 @@
 		(path "/691008e5-4e7e-48ec-a6d2-c51d5cbacef5/41d1da45-46ce-4b16-947d-f3555cda9117")
 		(sheetname "/input/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -5801,6 +5801,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "efe0a686-273e-4e16-9a84-551f4a0e8c4f")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -7537,7 +7549,7 @@
 		(path "/d8739181-a03e-4193-a888-bed7be2a6252/41d1da45-46ce-4b16-947d-f3555cda9117")
 		(sheetname "/input4/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -8503,6 +8515,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C23162"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1e46f25c-51ad-4df0-89bf-561ee39b52dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/691008e5-4e7e-48ec-a6d2-c51d5cbacef5/985ebe15-c6ef-4f2b-bf40-add0b6837f2f")
 		(sheetname "/input/")
@@ -8709,7 +8733,7 @@
 		(path "/4ade7035-83cf-47ad-aae3-9ee9aee5ff00/41d1da45-46ce-4b16-947d-f3555cda9117")
 		(sheetname "/input5/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -8862,7 +8886,7 @@
 		(path "/b766b748-0aae-4359-8471-fa82a8239969/41d1da45-46ce-4b16-947d-f3555cda9117")
 		(sheetname "/input1/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -9015,7 +9039,7 @@
 		(path "/3a607616-171d-4e74-b0d4-b117e247401e/961349ad-bfd2-477f-a680-2c8cb69b7205")
 		(sheetname "/input3/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -9168,7 +9192,7 @@
 		(path "/27f30978-c5d0-4341-8179-076bd531d8d2/e477373e-358b-4e88-9f14-ec2055891c1a")
 		(sheetname "/input2/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -9321,7 +9345,7 @@
 		(path "/b766b748-0aae-4359-8471-fa82a8239969/e0685183-9744-4b22-84cf-ae799a1d4dc8")
 		(sheetname "/input1/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -9474,7 +9498,7 @@
 		(path "/a647489d-e8df-41ec-aa52-eeaa8bbde904/000133b5-fa0a-4bb2-ac1b-470b99b4c8b8")
 		(sheetname "/input7/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -9627,7 +9651,7 @@
 		(path "/27f30978-c5d0-4341-8179-076bd531d8d2/ce01741e-e07d-48d2-af2d-9880d8cdf7b3")
 		(sheetname "/input2/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -9780,7 +9804,7 @@
 		(path "/d8739181-a03e-4193-a888-bed7be2a6252/000133b5-fa0a-4bb2-ac1b-470b99b4c8b8")
 		(sheetname "/input4/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -9933,7 +9957,7 @@
 		(path "/3a607616-171d-4e74-b0d4-b117e247401e/41d1da45-46ce-4b16-947d-f3555cda9117")
 		(sheetname "/input3/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -10086,7 +10110,7 @@
 		(path "/27f30978-c5d0-4341-8179-076bd531d8d2/e0685183-9744-4b22-84cf-ae799a1d4dc8")
 		(sheetname "/input2/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -10490,7 +10514,7 @@
 		(path "/691008e5-4e7e-48ec-a6d2-c51d5cbacef5/e477373e-358b-4e88-9f14-ec2055891c1a")
 		(sheetname "/input/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -10643,7 +10667,7 @@
 		(path "/27f30978-c5d0-4341-8179-076bd531d8d2/41d1da45-46ce-4b16-947d-f3555cda9117")
 		(sheetname "/input2/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -11800,7 +11824,7 @@
 		(path "/27f30978-c5d0-4341-8179-076bd531d8d2/961349ad-bfd2-477f-a680-2c8cb69b7205")
 		(sheetname "/input2/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -11996,6 +12020,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2843785"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0a0fc232-0b65-4619-a115-1b4dab0f1f64")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12352,6 +12388,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C161692"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "def902a6-3b68-4bbf-bbb3-2cb862406dda")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -13328,7 +13376,7 @@
 		(path "/691008e5-4e7e-48ec-a6d2-c51d5cbacef5/000133b5-fa0a-4bb2-ac1b-470b99b4c8b8")
 		(sheetname "/input/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -13481,7 +13529,7 @@
 		(path "/23402c7e-3fda-4810-aa85-009fbca86ab3/961349ad-bfd2-477f-a680-2c8cb69b7205")
 		(sheetname "/input6/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -13885,7 +13933,7 @@
 		(path "/b766b748-0aae-4359-8471-fa82a8239969/961349ad-bfd2-477f-a680-2c8cb69b7205")
 		(sheetname "/input1/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -14038,7 +14086,7 @@
 		(path "/d8739181-a03e-4193-a888-bed7be2a6252/ce01741e-e07d-48d2-af2d-9880d8cdf7b3")
 		(sheetname "/input4/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -14491,7 +14539,7 @@
 		(path "/c836bb74-a173-4013-97f3-1346f0fbaef6")
 		(sheetname "/")
 		(sheetfile "ghost_host.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.27 -1.27)
 			(end 0 -1.27)
@@ -15340,7 +15388,7 @@
 		(path "/d8739181-a03e-4193-a888-bed7be2a6252/e0685183-9744-4b22-84cf-ae799a1d4dc8")
 		(sheetname "/input4/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -15493,7 +15541,7 @@
 		(path "/691008e5-4e7e-48ec-a6d2-c51d5cbacef5/ce01741e-e07d-48d2-af2d-9880d8cdf7b3")
 		(sheetname "/input/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -15646,7 +15694,7 @@
 		(path "/23402c7e-3fda-4810-aa85-009fbca86ab3/e477373e-358b-4e88-9f14-ec2055891c1a")
 		(sheetname "/input6/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -15799,7 +15847,7 @@
 		(path "/d8739181-a03e-4193-a888-bed7be2a6252/961349ad-bfd2-477f-a680-2c8cb69b7205")
 		(sheetname "/input4/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -15952,7 +16000,7 @@
 		(path "/4ade7035-83cf-47ad-aae3-9ee9aee5ff00/e477373e-358b-4e88-9f14-ec2055891c1a")
 		(sheetname "/input5/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -17939,7 +17987,7 @@
 		(path "/a647489d-e8df-41ec-aa52-eeaa8bbde904/ce01741e-e07d-48d2-af2d-9880d8cdf7b3")
 		(sheetname "/input7/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -18607,7 +18655,7 @@
 		(path "/27f30978-c5d0-4341-8179-076bd531d8d2/000133b5-fa0a-4bb2-ac1b-470b99b4c8b8")
 		(sheetname "/input2/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -18803,6 +18851,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2843785"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "806abaaf-69cc-4894-860a-d67014e91086")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -19118,7 +19178,7 @@
 		(path "/3a607616-171d-4e74-b0d4-b117e247401e/e0685183-9744-4b22-84cf-ae799a1d4dc8")
 		(sheetname "/input3/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -19271,7 +19331,7 @@
 		(path "/a647489d-e8df-41ec-aa52-eeaa8bbde904/41d1da45-46ce-4b16-947d-f3555cda9117")
 		(sheetname "/input7/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -19675,7 +19735,7 @@
 		(path "/23402c7e-3fda-4810-aa85-009fbca86ab3/ce01741e-e07d-48d2-af2d-9880d8cdf7b3")
 		(sheetname "/input6/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -19828,7 +19888,7 @@
 		(path "/4ade7035-83cf-47ad-aae3-9ee9aee5ff00/e0685183-9744-4b22-84cf-ae799a1d4dc8")
 		(sheetname "/input5/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -21247,7 +21307,7 @@
 		(path "/691008e5-4e7e-48ec-a6d2-c51d5cbacef5/e0685183-9744-4b22-84cf-ae799a1d4dc8")
 		(sheetname "/input/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -21400,7 +21460,7 @@
 		(path "/23402c7e-3fda-4810-aa85-009fbca86ab3/e0685183-9744-4b22-84cf-ae799a1d4dc8")
 		(sheetname "/input6/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -21553,7 +21613,7 @@
 		(path "/691008e5-4e7e-48ec-a6d2-c51d5cbacef5/961349ad-bfd2-477f-a680-2c8cb69b7205")
 		(sheetname "/input/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -21706,7 +21766,7 @@
 		(path "/3a607616-171d-4e74-b0d4-b117e247401e/e477373e-358b-4e88-9f14-ec2055891c1a")
 		(sheetname "/input3/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -21859,7 +21919,7 @@
 		(path "/b766b748-0aae-4359-8471-fa82a8239969/e477373e-358b-4e88-9f14-ec2055891c1a")
 		(sheetname "/input1/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -22523,7 +22583,7 @@
 		(path "/4ade7035-83cf-47ad-aae3-9ee9aee5ff00/961349ad-bfd2-477f-a680-2c8cb69b7205")
 		(sheetname "/input5/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -22676,7 +22736,7 @@
 		(path "/d8739181-a03e-4193-a888-bed7be2a6252/e477373e-358b-4e88-9f14-ec2055891c1a")
 		(sheetname "/input4/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -22829,7 +22889,7 @@
 		(path "/23402c7e-3fda-4810-aa85-009fbca86ab3/000133b5-fa0a-4bb2-ac1b-470b99b4c8b8")
 		(sheetname "/input6/")
 		(sheetfile "input.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -26484,7 +26544,7 @@
 		(path "/2902cef1-6c1b-4865-a6f4-b9b63ce12da7")
 		(sheetname "/")
 		(sheetfile "ghost_host.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -8.89 15.7)
 			(end -8.89 -17.78)
@@ -28844,6 +28904,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C3824272"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "747e9c0f-6998-4989-a4a1-bddfa0722815")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
 		(path "/4ade7035-83cf-47ad-aae3-9ee9aee5ff00/f0392e22-a542-4cf7-9f38-2b29a21b2c32")
 		(sheetname "/input5/")
@@ -29964,6 +30036,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C261920"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d8881637-0ea8-4baa-a8ab-a57752afa88f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/6e5e7205-c0bd-43c3-a2ca-ee291186c1d3")
 		(sheetname "/")
@@ -30306,6 +30390,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C3824272"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "90b88c7d-d2f9-4030-8ddc-6937eb80d4bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
@@ -31717,6 +31813,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C3824272"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6f22108c-5556-40f4-b0b4-205005f92496")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
@@ -36315,6 +36423,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C22787"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "1990d096-5717-4f67-aa97-79b50d2874e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/691008e5-4e7e-48ec-a6d2-c51d5cbacef5/1db01add-6819-4987-af3a-9991254b7345")
 		(sheetname "/input/")
@@ -38171,6 +38291,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C3824272"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5c584386-5861-493c-986f-ed9b09bd5c9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
 		(path "/691008e5-4e7e-48ec-a6d2-c51d5cbacef5/f0392e22-a542-4cf7-9f38-2b29a21b2c32")
 		(sheetname "/input/")
@@ -38537,6 +38669,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C5199872"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f22d3d6e-3cd9-4ae2-b05d-b6f91faedb76")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/691008e5-4e7e-48ec-a6d2-c51d5cbacef5/578f24e8-c240-4d00-a65a-da183ee664e5")
 		(sheetname "/input/")
@@ -38797,6 +38941,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C3824272"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "079e28c4-c8d6-47da-9fe5-dda40754120d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
@@ -39685,6 +39841,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C23204"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "adcd6b09-78a5-41a3-ac72-8b4c0f69fc64")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -40906,6 +41074,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C3824272"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b5c45d39-42cb-4747-92bc-3ab542bcdfcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
 		(path "/23402c7e-3fda-4810-aa85-009fbca86ab3/f0392e22-a542-4cf7-9f38-2b29a21b2c32")
 		(sheetname "/input6/")
@@ -41560,6 +41740,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C3824272"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c2daeed6-c910-4bec-8096-d0f4a903145a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
@@ -43814,6 +44006,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C51940119"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6e6ad161-e2ad-480a-b05d-d27cdc02bd27")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/691008e5-4e7e-48ec-a6d2-c51d5cbacef5/756e1f51-9657-42fa-bc33-b2f9db40d984")
 		(sheetname "/input/")
@@ -44451,6 +44655,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C3824272"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b7db78b0-b561-49ef-a094-60a6110dc354")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
@@ -45310,6 +45526,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "07aef0f9-8b48-4941-99ce-f83e061d3f48")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
