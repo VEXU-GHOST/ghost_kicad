@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|146267554|79506066|a1e5b500-9e19-45e5-9d22-2b477672667c|c08a2e03-c9d5-49cb-9565-b723e33d21a3",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -153,7 +148,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -760,7 +755,7 @@
       {
         "filename": "rtc.kicad_sch",
         "name": "rtc",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "818bb878-dad3-4efb-a0ef-59b01bf8b5c9"
       }
     ],
     "used_designators": "",
@@ -769,7 +764,7 @@
   "sheets": [
     [
       "818bb878-dad3-4efb-a0ef-59b01bf8b5c9",
-      "Root"
+      "rtc"
     ]
   ],
   "text_variables": {},
