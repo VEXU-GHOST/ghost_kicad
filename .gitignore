@@ -1,30 +1,26 @@
-# Adapted from:
-# https://github.com/github/gitignore/blob/master/KiCad.gitignore
-
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
-# Format documentation: http://kicad-pcb.org/help/file-formats/
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
 
 # Temporary files
-production/
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*.kicad_prl
-*.sch-bak
+*-backups
+*-cache*
+*-bak
+*-bak*
 *~
+~*
 _autosave-*
+\#auto_saved_files\#
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-/build
-*-backups/
-backups/
-
-/a
-/docs/pcb_images_compressed/
+~*.lck
+\#auto_saved_files#
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -33,15 +29,16 @@ backups/
 *.dsn
 *.ses
 
-# Footprint association file (exported from Pcbnew)
-*.cmp
-
 # Exported BOM files
 *.xml
 *.csv
-*.tsv
 
-# Misc
-*.log
-*.raw
-.svg2shenzhen-cache
+# Archived Backups (KiCad 6.0)
+**/*-backups/*.zip
+
+# Local git-based history (KiCad 9.0+)
+.history
+
+# Local project settings
+*.kicad_prl
+*Zone.Identifier
