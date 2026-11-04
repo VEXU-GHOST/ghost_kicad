@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "pcb_footprints")(type "KiCad")(uri "${KIPRJMOD}/../../ghost_library/pcb_footprints")(options "")(descr "Repository footprints"))
+  (lib (name "ISL29125")(type "KiCad")(uri "${KIPRJMOD}/libraries/sensor.pretty")(options "")(descr "Onboarding sensor footprint"))
+  (lib (name "Connector_PinHeader_2.54mm")(type "KiCad")(uri "${KIPRJMOD}/libraries/connector.pretty")(options "")(descr "Standard header with off-board silk on assembly layer"))
+)
